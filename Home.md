@@ -6,7 +6,9 @@
 NemakiWare is a open source enterprise content management(ECM) system. It is:
 * **Compliant with CMIS standard**
 
-  Integration or replacement with other existing/future CMIS compliant software can be done easuily by the power of standard
+  Integration or replacement with other existing/future CMIS compliant software can be done easily by the power of standard. And more, not only the server but the client and the search engine are (going to be) connected by CMIS interface.
+
+
 * **NoSQL CouchDB backend** 
 
   Simple and easy to manage document based NoSQL database.
