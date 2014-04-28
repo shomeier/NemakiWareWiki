@@ -2,7 +2,7 @@
 
 ## Configuration architecture
 * CMIS server is based on Spring framework, and all of the configuration setting is centralized in Spring propertyConfigurator.  
-* Property files can be overwritten. They are overwritten in this order.(More below, more precedent).  
+* Property files can be overwritten. They are overwritten in the following order.(More below, more precedent).  
 For the detail, please see `<SOURCE_PATH>/nemakiware/src/main/webapp/WEB-INF/classes/propertyContextxml`.
 
   1. `<SOURCE_PATH>/nemakiware/src/main/webapp/WEB-INF/classes/nemakiware.properties` (and some other sub property files)
