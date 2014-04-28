@@ -1,7 +1,7 @@
 ---
 
 ## Run the CMIS server and the search engine
-The CMIS server and the search engine are installed in Tomcat, `<NEMAKIWARE_HOME>/apache-tomcat-7.x.xx`.  
+The CMIS server and the search engine are installed in Tomcat, `<INSTALL_PATH>/apache-tomcat-7.x.xx`.  
 Run Tomcat by `<TOMCAT_PATH>/bin/startup.sh` or `<TOMCAT_HOME>/bin/startup.bat`.
 
 ## Run the client
