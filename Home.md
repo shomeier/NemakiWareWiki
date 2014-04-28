@@ -4,6 +4,7 @@ Administrator:
 * [Configuration after installation](https://github.com/NemakiWare/NemakiWare/wiki/Configuration-after-installation)
 
 Developer:
+* [How to start development](https://github.com/NemakiWare/NemakiWare/wiki/How-to-start-development)
 * [Configuration(CMIS server)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28CMIS-server%29)
 * [Configuration(search engine)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28search-engine%29)
 * [Configuration(Client)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28Client%29)
