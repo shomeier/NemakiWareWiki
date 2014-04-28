@@ -2,10 +2,10 @@
 
 ## Run the CMIS server and the search engine
 The CMIS server and the search engine are installed in Tomcat, `<NEMAKIWARE_HOME>/apache-tomcat-7.x.xx`.  
-Run Tomcat by `<TOMCAT_HOME>/bin/startup.sh` or `<TOMCAT_HOME>/bin/startup.bat`.
+Run Tomcat by `<TOMCAT_PATH>/bin/startup.sh` or `<TOMCAT_HOME>/bin/startup.bat`.
 
 ## Run the client
-Move to `<NEMAKIWARE_HOME>/nemakishare` then run Rails application.  
+Move to `<INSTALL_PATH>/nemakishare` then run Rails application.  
   ```sh
 $ rails s
 ```
