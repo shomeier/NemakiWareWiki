@@ -4,3 +4,4 @@ Administrator:
 
 Developer:
 * [Configuration(CMIS server)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28CMIS-server%29)
+* [Customization(search engine) ](https://github.com/NemakiWare/NemakiWare/wiki/Customization%28search-engine%29)
