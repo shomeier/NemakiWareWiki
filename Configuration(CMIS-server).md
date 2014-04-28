@@ -16,3 +16,6 @@ For the detail, please see `<SOURCE_PATH>/nemakiware/src/main/webapp/WEB-INF/cla
 * For developer, `custom-nemakiware.properties` is the most important. Every customization should be put here.
 * For administrator, `app-server-xxx.properties` are the most important. They take user inputs. 
 * Spring context configuration XML files are also described in property files. So you can replace the back end etc. as you like.
+
+---
+* Note: You can define a new property key for your customization use, please pay attention to avoid conflict of property key.
