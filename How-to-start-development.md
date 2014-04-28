@@ -27,7 +27,7 @@ rake db:migrate:reset
 ---
 
 ##How to run in developement production
-You can use `<SOURCE_PATH>/setup/development/start.sh(or start.bat)` and `<SOURCE_PATH>/setup/development/stop.sh(or stop.bat)`, though they are not not well tested.
+You can use `<SOURCE_PATH>/setup/development/start.sh(or start.bat)` and `<SOURCE_PATH>/setup/development/stop.sh(or stop.bat)`, though they are not well tested.
 ###CMIS server and search engine
 ```sh
 mvn jetty:run
