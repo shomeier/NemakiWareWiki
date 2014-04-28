@@ -13,6 +13,6 @@ In this Wiki,
 <table>
 <tr><th>Variable</th><th>Description</th></tr>
 <tr><td>&lt;INSTALL_PATH&gt;</td><td>The target folder of the installer</td></tr>
-<tr><td>&lt;TOMCAT_PATH&gt;</td><td>The installed tomcat's folder. <INSTALL_PATH>/apache-tomcat-7.x.xx</td></tr>
+<tr><td>&lt;TOMCAT_PATH&gt;</td><td>The installed tomcat's folder. <br/>&lt;INSTALL_PATH&gt;/apache-tomcat-7.x.xx/</td></tr>
 <tr><td>&lt;SOURCE_PATH&gt;</td><td>The root folder of the source code.</td></tr>
 </table>
