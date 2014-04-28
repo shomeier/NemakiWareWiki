@@ -3,3 +3,4 @@ Administrator:
 * [How to run applications](https://github.com/NemakiWare/NemakiWare/wiki/How-to-run-applications)
 
 Developer:
+* [Configuration(CMIS server)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28CMIS-server%29)
