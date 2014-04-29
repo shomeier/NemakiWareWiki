@@ -39,7 +39,7 @@ Parameters(in this order):
 ###Interactive Setup
 You can also all load dump files required for NemakiWare at the same time in the interactive mode on the terminal.  
 Run `jp.aegif.nemaki.bjornloka.Setup`.  
-Of course it works with no arguments, it can also take the following arguments.
+Of course it works with no arguments, it can also take the following arguments in this order.
 
 <table>
 <tr><th>Argument</th><th>Description</th></tr>
