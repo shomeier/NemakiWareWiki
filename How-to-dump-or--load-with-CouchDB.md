@@ -4,6 +4,9 @@
 * `<INSTALL_PATH>/setup/couchdb/bjornloka` is an maven project for dump/load of CouchDB.
 * In this project, there is simple Java application with main method for dump/load.
 
+##Initial Data
+Official dump files for initialization are in `<INSTALL_PATH>/setup/couchdb/initial_import`.
+
 ##Procedure
 ###Dump
 Run `jp.aegif.nemaki.bjornloka.Dump` with the following arguments.  
@@ -33,13 +36,10 @@ Parameters(in this order):
 <tr><td>force<br/>(optional)</td><td>When the target repository already exists, if this boolean flag is true, delete and recreate the repository with loaded data.</td></tr>
 </table>
 
-##Initial Data
-Official dump files for initialization are in `<INSTALL_PATH>/setup/couchdb/initial_import`.
-
-##Interactive Setup
-You can also load dump files required for NemakiWare at the same time in the interactive mode on the terminal.  
-Run `jp.aegif.nemaki.bjornloka.Setup`.
-Of course it works wit no arguments, it can also take the following arguments.
+###Interactive Setup
+You can also all load dump files required for NemakiWare at the same time in the interactive mode on the terminal.  
+Run `jp.aegif.nemaki.bjornloka.Setup`.  
+Of course it works with no arguments, it can also take the following arguments.
 
 <table>
 <tr><th>Argument</th><th>Description</th></tr>
