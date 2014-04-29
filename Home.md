@@ -8,6 +8,7 @@ Administrator:
 Developer:
 * [Start development](https://github.com/NemakiWare/NemakiWare/wiki/Start-development)
 * [Generate an installer](https://github.com/NemakiWare/NemakiWare/wiki/Generate-an-installer)
+* [CMIS Workbench(Simple client)](https://github.com/NemakiWare/NemakiWare/wiki/CMIS-Workbench%28Simple-client%29)
 * [Configuration(CMIS server)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28CMIS-server%29)
 * [Configuration(search engine)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28search-engine%29)
 * [Configuration(Client)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28Client%29)
