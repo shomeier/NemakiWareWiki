@@ -19,7 +19,7 @@ Parameters(in this order):
 <tr><td>port</td><td>CouchDB port<br/>ex. 5984</td></tr>
 <tr><td>repositoryId</td><td>Target CouchDB database name<br/>ex. bedroom</td></tr>
 <tr><td>filePath</td><td>Full path of dump destination file<br/>By default, timestamp will be attached to this filePath.</td></tr>
-<tr><td>omitTimestamp<br/>(optional)</td><td>If this boolean flag is true, a dump file name has no timestamp.</td></tr>
+<tr><td>omitTimestamp<br/>(optional)</td><td>If this boolean flag is true, a dump file name has no attached timestamp.</td></tr>
 </table>
 
 ###Load
