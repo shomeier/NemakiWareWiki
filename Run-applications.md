@@ -1,4 +1,12 @@
 ---
+##Prerequisites
+* CouchDB must be installed beforehand. See [this page](https://github.com/NemakiWare/NemakiWare/wiki/Install-CouchDB).
+* Java1.6+
+* Ruby 1.9.3
+* (Ruby gem)bundler, rake10.1.1
+
+In production environment, Rails is installed from local gem cache.  
+Especially, in Windows, we use [RailsInstaller](http://railsinstaller.org/en) to install bundler, rake, Rails itself and some other components.
 
 ## Run the CMIS server and the search engine
 The CMIS server and the search engine are installed in Tomcat(`<INSTALL_PATH>/apache-tomcat-7.x.xx`).  
