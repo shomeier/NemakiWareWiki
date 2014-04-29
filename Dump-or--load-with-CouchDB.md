@@ -2,7 +2,7 @@
 
 ## Architecture 
 * `<INSTALL_PATH>/setup/couchdb/bjornloka` is an maven project for dump/load of CouchDB.
-* In this project, there is simple Java applications with main method for dump/load.
+* In this project, there are simple Java applications with main method for dump/load.
 
 ##Initial Data
 Official dump files for initialization are in `<INSTALL_PATH>/setup/couchdb/initial_import`.
