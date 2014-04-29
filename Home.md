@@ -1,13 +1,13 @@
 Administrator:
 * [Install CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/Install-CouchDB)
-* [How to install NemakiWare(Server, Search engine and Client) ](https://github.com/NemakiWare/NemakiWare/wiki/How-to-install-NemakiWare%28Server,-Search-engine-and-Client%29)
-* [How to run applications](https://github.com/NemakiWare/NemakiWare/wiki/How-to-run-applications)
+* [Install NemakiWare(Server, Search engine and Client)](https://github.com/NemakiWare/NemakiWare/wiki/Install-NemakiWare%28Server,-Search-engine-and-Client%29)
+* [Run applications](https://github.com/NemakiWare/NemakiWare/wiki/Run-applications)
 * [Configuration after installation](https://github.com/NemakiWare/NemakiWare/wiki/Configuration-after-installation)
+* [Dump or load with CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/Dump-or--load-with-CouchDB)
 
 Developer:
-* [How to start development](https://github.com/NemakiWare/NemakiWare/wiki/How-to-start-development)
-* [How to generate an installer](https://github.com/NemakiWare/NemakiWare/wiki/How-to-generate-an-installer)
-* [How to dump or load with CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/How-to-dump-or--load-with-CouchDB)
+* [Start development](https://github.com/NemakiWare/NemakiWare/wiki/Start-development)
+* [Generate an installer](https://github.com/NemakiWare/NemakiWare/wiki/Generate-an-installer)
 * [Configuration(CMIS server)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28CMIS-server%29)
 * [Configuration(search engine)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28search-engine%29)
 * [Configuration(Client)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28Client%29)
