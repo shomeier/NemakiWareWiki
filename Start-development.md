@@ -23,6 +23,7 @@ Move to <SOURCE_PATH>/nemakisolr and
 bundle install
 rake db:migrate:reset
 ```
+* Note: In production environment, Rails is installed from local gem cache to save the installation time (and omit complicated Windows-Rails problems).  But in development environment, you can run simply `bundle install`.
 
 ---
 
