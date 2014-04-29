@@ -6,7 +6,7 @@ Administrator:
 Developer:
 * [How to start development](https://github.com/NemakiWare/NemakiWare/wiki/How-to-start-development)
 * [How to generate an installer](https://github.com/NemakiWare/NemakiWare/wiki/How-to-generate-an-installer)
-* [How to dump load with CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/How-to-dump-load-with-CouchDB)
+* [How to dump or load with CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/How-to-dump-or--load-with-CouchDB)
 * [Configuration(CMIS server)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28CMIS-server%29)
 * [Configuration(search engine)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28search-engine%29)
 * [Configuration(Client)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28Client%29)
