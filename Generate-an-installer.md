@@ -9,4 +9,4 @@
 1. Run `<INSTALL_PAH>/setup/installer/make.sh` or `<INSTALL_PAH>/setup/installer/make.bat` 
 2. `<INSTALL_PAH>/setup/installer/install.jar` is created. This is an installer file.
 
-For running the installer, see [How to install NemakiWare(Server, Search engine and Client)](https://github.com/NemakiWare/NemakiWare/wiki/How-to-install-NemakiWare%28Server,-Search-engine-and-Client%29)
+For running the installer, see [Install NemakiWare(Server, Search engine and Client)](https://github.com/NemakiWare/NemakiWare/wiki/Install-NemakiWare%28Server,-Search-engine-and-Client%29)
