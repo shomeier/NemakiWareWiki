@@ -1,4 +1,5 @@
 Administrator:
+* [Prerequisites fo installation](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-fo-installation)
 * [Install CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/Install-CouchDB)
 * [Install NemakiWare(Server, Search engine and Client)](https://github.com/NemakiWare/NemakiWare/wiki/Install-NemakiWare%28Server,-Search-engine-and-Client%29)
 * [Run applications](https://github.com/NemakiWare/NemakiWare/wiki/Run-applications)
