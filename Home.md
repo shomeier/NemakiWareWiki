@@ -5,6 +5,7 @@ Administrator:
 * [Configuration after installation](https://github.com/NemakiWare/NemakiWare/wiki/Configuration-after-installation)
 * [Administration of CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-CouchDB)
 * [Dump or load with CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/Dump-or--load-with-CouchDB)
+* [Administration of search engine](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-search-engine)
 
 Developer:
 * [Start development](https://github.com/NemakiWare/NemakiWare/wiki/Start-development)
