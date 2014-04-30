@@ -11,6 +11,7 @@ Administrator:
 * [Administration of client](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-client)
 
 Developer:
+* [Prerequisites for development](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-development)
 * [Start development](https://github.com/NemakiWare/NemakiWare/wiki/Start-development)
 * [Generate an installer](https://github.com/NemakiWare/NemakiWare/wiki/Generate-an-installer)
 * [CMIS Workbench(Simple client)](https://github.com/NemakiWare/NemakiWare/wiki/CMIS-Workbench%28Simple-client%29)
