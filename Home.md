@@ -3,6 +3,7 @@ Administrator:
 * [Install NemakiWare(Server, Search engine and Client)](https://github.com/NemakiWare/NemakiWare/wiki/Install-NemakiWare%28Server,-Search-engine-and-Client%29)
 * [Run applications](https://github.com/NemakiWare/NemakiWare/wiki/Run-applications)
 * [Configuration after installation](https://github.com/NemakiWare/NemakiWare/wiki/Configuration-after-installation)
+* [Administration of CMIS server](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-CMIS-server)
 * [Administration of CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-CouchDB)
 * [Dump or load with CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/Dump-or--load-with-CouchDB)
 * [Administration of search engine](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-search-engine)
