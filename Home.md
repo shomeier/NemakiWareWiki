@@ -9,6 +9,7 @@ Administrator:
 * [Dump or load with CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/Dump-or--load-with-CouchDB)
 * [Administration of search engine](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-search-engine)
 * [Administration of client](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-client)
+* [Data initialization](https://github.com/NemakiWare/NemakiWare/wiki/Data-initialization)
 
 Developer:
 * [Prerequisites for development](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-development)
