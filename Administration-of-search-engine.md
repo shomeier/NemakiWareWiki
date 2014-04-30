@@ -1,4 +1,5 @@
 ---
+As a full-text search engine, NemakiWare adopts Solr4.  
 
 ## UI
 By default,  
