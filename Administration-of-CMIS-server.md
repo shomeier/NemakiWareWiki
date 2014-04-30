@@ -9,7 +9,7 @@
 Default permission settings are defined in  
 * `<SOURCE_PATH>/nemakiware/src/main/webapp/WEB-INF/classes/permission.yml`  
 Define all kinds of permission in NemakiWare
-* `<SOURCE_PATH>/nemakiware/src/main/webapp/WEB-INF/classes/permission-mapping.yml`
+* `<SOURCE_PATH>/nemakiware/src/main/webapp/WEB-INF/classes/permission-mapping.yml`  
 Define the allowable CMIS action for a permission.  
 See [Spec 2.1.12.3.2](http://docs.oasis-open.org/cmis/CMIS/v1.1/os/CMIS-v1.1-os.html#x1-7700012)
 
