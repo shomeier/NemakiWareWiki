@@ -3,7 +3,10 @@
 ## CouchDB
 See [this link](https://github.com/NemakiWare/NemakiWare/wiki/Dump-or--load-with-CouchDB#interactive-setup).
 
-Do not forget to initialize Solr after initializing CouchDB.
+Do not forget to initialize Solr and NemakiShare client after initializing CouchDB.
 
 ## Solr
 See [this link](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-search-engine#initialization-and-reindex).
+
+## NemakiShare
+See [this link](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-client#initializing-the-stored-change-log)
