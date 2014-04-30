@@ -1,4 +1,9 @@
 ---
+## RepositoryInfo
+
+## Capability
+
+## ObjectType
 
 ## Permission
 Default permission settings are defined in  
