@@ -12,3 +12,6 @@ NemakiWare creates and uses the following databases:
 * archive
 
 Main database stores almost all the data and the query view for NemakiWare, while archive database stores archived data of deleted items.
+
+###Note
+Secure connection to CouchDB(Basic Auth, Proxy etc.) is not supported by NemakiWare at present.
