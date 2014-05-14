@@ -1,6 +1,7 @@
 User:
 * CMIS URL: `http://<servername>:8080/nemakiware/atom/bedroom`
 * Client URL: `http://<servername>:3000`
+* You can try NemakiWare at http://trial.nemakiware.com:3000 (user: `admin` password: `admin`)
 
 Administrator:
 * [Prerequisites for installation](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-installation)
