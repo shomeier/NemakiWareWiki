@@ -1,7 +1,11 @@
+User:
+* CMIS URL: http://<servername>:8080/nemakiware/atom/bedroom
+* Client URL: http://<servername>:3000
+
 Administrator:
 * [Prerequisites for installation](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-installation)
 * [Install CouchDB](https://github.com/NemakiWare/NemakiWare/wiki/Install-CouchDB)
-* [Install NemakiWare(Server, Search engine and Client)](https://github.com/NemakiWare/NemakiWare/wiki/Install-NemakiWare%28Server,-Search-engine-and-Client%29)
+* [Install NemakiWare (Server, Search engine and Client)](https://github.com/NemakiWare/NemakiWare/wiki/Install-NemakiWare%28Server,-Search-engine-and-Client%29)
 * [Run applications](https://github.com/NemakiWare/NemakiWare/wiki/Run-applications)
 * [Configuration after installation](https://github.com/NemakiWare/NemakiWare/wiki/Configuration-after-installation)
 * [Administration of CMIS server](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-CMIS-server)
