@@ -1,6 +1,6 @@
 User:
-* CMIS URL: http://<servername>:8080/nemakiware/atom/bedroom
-* Client URL: http://<servername>:3000
+* CMIS URL: `http://<servername>:8080/nemakiware/atom/bedroom`
+* Client URL: `http://<servername>:3000`
 
 Administrator:
 * [Prerequisites for installation](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-installation)
