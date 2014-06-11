@@ -24,6 +24,7 @@ Developer:
 * [Configuration(CMIS server)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28CMIS-server%29)
 * [Configuration(search engine)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28search-engine%29)
 * [Configuration(Client)](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28Client%29)
+* [Note on writing another DAO](https://github.com/aegif/NemakiWare/wiki/Note-on-writing-another-DAO)
 
 ---
 In this Wiki,
