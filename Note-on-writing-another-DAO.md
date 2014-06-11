@@ -3,6 +3,8 @@ You can add easily another database as a background for NemakiWare.
 * Replace `jp.aegif.nemaki.service.dao.impl.CouchContentDaoServiceImpl/CouchPrincipalDaoServiceImpl`.  
 `ContentDaoServiceImpl/PrincipalDaoServiceImpl` implement the caching mechanism and call `CouchContentDaoServiceImpl/CouchPrincipalDaoServiceImpl` as `nonCachedContentDaoService/nonCachedPrincipalDaoService`.
 
+* DAO service classes should implement `ContentDaoService/PrincipalDaoService` interface.
+
 *  Spring configuration  
 _`context.backend` in property files_: Overwrite it by the new Spring context file you defined.  
 _Your new Spring context file_: Define the classes as couchContext.xml. 
