@@ -6,19 +6,19 @@ You can use `<SOURCE_PATH>/setup/development/setup.sh(or setup.bat)`, though it'
 
 ###CMIS server
 
-Move to <SOURCE_PATH>/nemakiware and
+Move to `<SOURCE_PATH>/nemakiware` and
 ```sh
 mvn eclipse:eclipse
 ```
 
 ###Search engine
-Move to <SOURCE_PATH>/nemakisolr and
+Move to `<SOURCE_PATH>/nemakisolr` and
 ```sh
 mvn eclipse:eclipse
 ```
 
 ###Client
-Move to <SOURCE_PATH>/nemakishare and
+Move to `<SOURCE_PATH>/nemakishare` and
 ```sh
 bundle install
 rake db:migrate:reset
