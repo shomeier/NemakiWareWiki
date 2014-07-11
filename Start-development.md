@@ -18,7 +18,7 @@ mvn eclipse:eclipse
 ```
 
 ###Client
-Move to <SOURCE_PATH>/nemakisolr and
+Move to <SOURCE_PATH>/nemakishare and
 ```sh
 bundle install
 rake db:migrate:reset
