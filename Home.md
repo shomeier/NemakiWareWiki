@@ -1,6 +1,7 @@
 User:
-* CMIS URL: `http://<servername>:8080/nemakiware/atom/bedroom`
 * Client URL: `http://<servername>:3000`
+* CMIS Atom URL: `http://<servername>:8080/nemakiware/atom/bedroom`
+* CMIS Browser URL: `http://<servername>:8080/nemakiware/browser/bedroom`
 * You can try NemakiWare at http://trial.nemakiware.com:3000 (user: `admin` password: `admin`), CMIS URL: `http://trial.nemakiware.com:8080/nemakiware/atom/bedroom`
 
 Administrator:
