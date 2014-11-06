@@ -32,6 +32,6 @@ In this Wiki,
 <table style="width:10%; border:0; font-size:1em;">
 <tr><th>Variable</th><th>Description</th></tr>
 <tr><td>&lt;INSTALL_PATH&gt;</td><td>The target folder of the installer</td></tr>
-<tr><td>&lt;TOMCAT_PATH&gt;</td><td>The installed tomcat's folder. <br/>This equals to<br/>&lt;INSTALL_PATH&gt;/apache-tomcat-7.x.xx/</td></tr>
+<tr><td>&lt;TOMCAT_PATH&gt;</td><td>The installed tomcat's folder. <br/>This equals to<br/>&lt;INSTALL_PATH&gt;/apache-tomcat-8.x.xx/</td></tr>
 <tr><td>&lt;SOURCE_PATH&gt;</td><td>The root folder of the source code.<br/>If you have cloned this repository, the created folder "NemakiWare" is SOURCE_PATH.</td></tr>
 </table>
