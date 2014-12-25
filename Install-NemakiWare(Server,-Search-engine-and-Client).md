@@ -17,6 +17,3 @@ $ java -jar <installer/path>/install.jar
 
 * Note: At the end of the installation, it might seem to stop and to take much time.  
   It deploys all Rails gem from local cache. Please wait for a moment :)
-
-* Note: In Windows, the installer is going to install Rails by RailsInstaller.  
-If it's not needed, cancel it out in the installer pack selection window.
