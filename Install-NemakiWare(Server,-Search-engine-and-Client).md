@@ -14,6 +14,3 @@ Because a shell script executing `bundle install` command will fail by clicking 
 ```sh
 $ java -jar <installer/path>/install.jar
 ```  
-
-* Note: At the end of the installation, it might seem to stop and to take much time.  
-  It deploys all Rails gem from local cache. Please wait for a moment :)
