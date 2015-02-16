@@ -12,11 +12,12 @@
   * CMIS URL: `http://trial.nemakiware.com:8080/core/atom/bedroom`
 
 システム管理者向け:
-* [インストール前の準備](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E5%89%8D%E3%81%AE%E6%BA%96%E5%82%99)
-* [CouchDBのインストール](https://github.com/NemakiWare/NemakiWare/wiki/Install-CouchDB)
-* [NemakiWareのインストール (サーバ、全文検索エンジン、Webクライアント）](https://github.com/aegif/NemakiWare/wiki/NemakiWare%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
-* [NemakiWare起動方法](https://github.com/aegif/NemakiWare/wiki/NemakiWare%E8%B5%B7%E5%8B%95%E6%96%B9%E6%B3%95)
-* [インストール後の設定](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E5%BE%8C%E3%81%AE%E8%A8%AD%E5%AE%9A)
+* インストール
+ * [インストール前の準備](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E5%89%8D%E3%81%AE%E6%BA%96%E5%82%99)
+ * [CouchDBのインストール](https://github.com/NemakiWare/NemakiWare/wiki/Install-CouchDB)
+ * [NemakiWareのインストール (サーバ、全文検索エンジン、Webクライアント）](https://github.com/aegif/NemakiWare/wiki/NemakiWare%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+ * [NemakiWare起動方法](https://github.com/aegif/NemakiWare/wiki/NemakiWare%E8%B5%B7%E5%8B%95%E6%96%B9%E6%B3%95)
+ * [インストール後の設定](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E5%BE%8C%E3%81%AE%E8%A8%AD%E5%AE%9A)
 * [CMISサーバの管理方法](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-CMIS-server)
 * [CouchDBの管理について](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-CouchDB)
 * [CouchDBのデータ保守](https://github.com/NemakiWare/NemakiWare/wiki/Dump-or--load-with-CouchDB)
