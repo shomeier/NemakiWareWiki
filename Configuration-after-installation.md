@@ -1,6 +1,6 @@
 
 ---
-（→[日本語](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E5%BE%8C%E3%81%AE%E8%A8%AD%E5%AE%9A)）
+English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E5%BE%8C%E3%81%AE%E8%A8%AD%E5%AE%9A)
 
 In the installer, you can configure some property values as you want.  
 These values are saved in 
