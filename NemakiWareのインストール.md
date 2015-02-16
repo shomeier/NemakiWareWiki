@@ -1,4 +1,5 @@
----
+[English](https://github.com/NemakiWare/NemakiWare/wiki/Install-NemakiWare%28Server,-Search-engine-and-Client%29)/日本語
+***
 インストーラはマルチプラットフォームになっています。  
 
 ## インストーラのダウンロード
