@@ -21,7 +21,7 @@
 * [クライアントの管理について](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-client)
 * [データの初期化](https://github.com/NemakiWare/NemakiWare/wiki/Data-initialization)
 
-Developer:
+開発者向け:
 * [開発前の準備](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-development)
 * [開発をはじめるには](https://github.com/NemakiWare/NemakiWare/wiki/Start-development)
 * [インストーラの作成方法](https://github.com/NemakiWare/NemakiWare/wiki/Generate-an-installer)
