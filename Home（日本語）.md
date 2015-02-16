@@ -1,3 +1,6 @@
+[English](https://github.com/aegif/NemakiWare/wiki/Home)/日本語
+***
+
 リンク先が英語の場合があります。日本語化は随時進めていきます。
 
 ユーザ向け:
