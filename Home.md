@@ -4,8 +4,8 @@ User:
 * CMIS Browser URL: `http://<servername>:8080/core/browser/bedroom`
 
 *  You can try NemakiWare online demosite. (user: `admin` password: `admin`)
-** Web UI URL:  `http://trial.nemakiware.com:8080/ui/` 
-** CMIS URL: `http://trial.nemakiware.com:8080/core/atom/bedroom`
+  * Web UI URL:  `http://trial.nemakiware.com:8080/ui/` 
+  * CMIS URL: `http://trial.nemakiware.com:8080/core/atom/bedroom`
 
 Administrator:
 * [Prerequisites for installation](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-installation)
