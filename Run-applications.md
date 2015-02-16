@@ -1,4 +1,4 @@
----
+English/[日本語](https://github.com/aegif/NemakiWare/wiki/NemakiWare%E8%B5%B7%E5%8B%95%E6%96%B9%E6%B3%95)
 
 ## Run all components
 CMIS server, search engine and CMIS client applications are all launched in a same Tomcat(`<INSTALL_PATH>/apache-tomcat-8.x.xx`).  
