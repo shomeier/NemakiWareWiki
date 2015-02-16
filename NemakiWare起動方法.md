@@ -1,4 +1,5 @@
----
+[English](https://github.com/NemakiWare/NemakiWare/wiki/Run-applications)/日本語
+***
 
 ## 全コンポーネントの起動
 * CMISサーバ、全文検索エンジン、Web UI アプリケーションは同じTomcat上で動きます（`<INSTALL_PATH>/apache-tomcat-8.x.xx`）。  
