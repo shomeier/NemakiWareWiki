@@ -5,8 +5,8 @@
 * CMIS Atom URL: `http://<servername>:8080/core/atom/bedroom`
 * CMIS Browser URL: `http://<servername>:8080/core/browser/bedroom`
 * オンライントライアルサイト（ユーザ名: `admin` パスワード: ユーザ名と同じ）
-** Web UI クライアントの URL:  `http://trial.nemakiware.com:8080/ui/` 
-** CMIS URL: `http://trial.nemakiware.com:8080/core/atom/bedroom`
+  * Web UI クライアントの URL:  `http://trial.nemakiware.com:8080/ui/` 
+  * CMIS URL: `http://trial.nemakiware.com:8080/core/atom/bedroom`
 
 システム管理者向け:
 * [インストール前の準備](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-installation)
