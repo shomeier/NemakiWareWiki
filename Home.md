@@ -2,7 +2,6 @@ User:
 * Client URL: `http://<servername>:8080/ui/`
 * CMIS Atom URL: `http://<servername>:8080/core/atom/bedroom`
 * CMIS Browser URL: `http://<servername>:8080/core/browser/bedroom`
-
 *  You can try NemakiWare online demosite. (user: `admin` password: `admin`)
   * Web UI URL:  `http://trial.nemakiware.com:8080/ui/` 
   * CMIS URL: `http://trial.nemakiware.com:8080/core/atom/bedroom`
