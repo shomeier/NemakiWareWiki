@@ -4,18 +4,18 @@
 NemakiWare は [Apache CouchDB](http://couchdb.apache.org/) をバックエンドのデータベースして採用しています。NemakiWareのインストールの前に、CouchDBをインストールしておく必要があります（NemakiWare のインストーラでは CouchDB はインストールされません）
 
 ##CouchDB インストール TIPS
-###パッケージ
+###インストーラ
 [CouchDBの公式サイト](http://couchdb.apache.org/)からパッケージインストーラをダウンロードできます。  
-現在 Mac 版と Windows 版があります
+現在 Mac 版、Windows 版のパッケージインストーラがあります。
 
 ###Mac
-If you want to use HomeBrew or MacPorts, see [Wiki](http://wiki.apache.org/couchdb/Installing_on_OSX).
+HomeBrew か MacPorts を利用してインストールする場合、[CouchDB の Wiki ページ](http://wiki.apache.org/couchdb/Installing_on_OSX)を参照下さい。
 
 ###Ubuntu
-See [Wiki](http://wiki.apache.org/couchdb/Installing_on_Ubuntu).  
+Ubuntu へのインストールは [CouchDB の Wiki ページ](http://wiki.apache.org/couchdb/Installing_on_Ubuntu)を参照下さい。  
 
-[This Vagrant project](https://github.com/bdossantos/puppet-module-couchdb) would be also helpful.  
-To change the VM from precise64 to quantal64 locally to meet the 12.10 minimum requirement for NemakiWare,
+また、Ubuntuに関しては[ここ](https://github.com/bdossantos/puppet-module-couchdb) にある Vagrant のプロジェクトが参考になります。  VMを precise64 から quantal64 に変更することで 12.10 へ NemakiWare をインストールするための最小要件を満たします。
+
 ```sh
 config.vm.box = "quantal64"
 config.vm.box_url = "https://github.com/downloads/roderik/VagrantQuantal64Box/quantal64.box"
@@ -23,5 +23,4 @@ config.vm.box_url = "https://github.com/downloads/roderik/VagrantQuantal64Box/qu
 (Thanks to [jlank](https://github.com/jlank))
 
 ###CentOS
-See [Wiki](http://wiki.apache.org/couchdb/Installing_on_RHEL5).  
-You must enable EPEL repositories.
+CentOS へのインストールも[CouchDB の Wiki ページ](http://wiki.apache.org/couchdb/Installing_on_RHEL5)を参照して下さい。EPELリポジトリを有効にしておく必要があります。
