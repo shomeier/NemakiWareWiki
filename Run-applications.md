@@ -1,7 +1,7 @@
 ---
 
 ## Run all components
-CMIS server, search engine and CMIS client applications are all launched in a same Tomcat(`<INSTALL_PATH>/apache-tomcat-7.x.xx`).  
+CMIS server, search engine and CMIS client applications are all launched in a same Tomcat(`<INSTALL_PATH>/apache-tomcat-8.x.xx`).  
 Run Tomcat by `<TOMCAT_PATH>/bin/startup.sh` or `<TOMCAT_PATH>/bin/startup.bat`.
 
 ## Login
