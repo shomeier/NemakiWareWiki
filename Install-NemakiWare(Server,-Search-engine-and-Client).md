@@ -2,11 +2,11 @@
 Installer works on multi-platform.  
 
 ## Download the installer
-Download `install.jar` from
+Download `NemakiWareInstaller-x.x.jar` from
 https://github.com/NemakiWare/NemakiWare/releases
 
 ## Run the installer
-Run `install.jar`
+Run `NemakiWareInstaller-x.x.jar`
 
 ---
 *  Note: In Unix-like system, instead of clicking `install.jar`, please type the following.  
