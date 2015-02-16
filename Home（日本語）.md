@@ -9,7 +9,7 @@
   * CMIS URL: `http://trial.nemakiware.com:8080/core/atom/bedroom`
 
 システム管理者向け:
-* [インストール前の準備](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-installation)
+* [インストール前の準備](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E5%89%8D%E3%81%AE%E6%BA%96%E5%82%99)
 * [CouchDBのインストール](https://github.com/NemakiWare/NemakiWare/wiki/Install-CouchDB)
 * [NemakiWareのインストール (サーバ、全文検索エンジン、Webクライアント）](https://github.com/NemakiWare/NemakiWare/wiki/Install-NemakiWare%28Server,-Search-engine-and-Client%29)
 * [起動方法](https://github.com/NemakiWare/NemakiWare/wiki/Run-applications)
