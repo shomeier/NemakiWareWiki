@@ -9,9 +9,9 @@ https://github.com/NemakiWare/NemakiWare/releases
 
 ## インストーラの起動
  `NemakiWareInstaller-x.x.jar` を実行します。
-
----
-*  注意: Unix互換システムでは `install.jar` をクリックするのではなく、下記のようにコマンドラインから実行して下さい。シェルスクリプトが `bundle install` と間違えて実行するため、クリックからの実行は失敗します。
+実行するには、
+* インストーラをクリックする(実行権限をあらかじめ与えておく必要がある場合があります)
+* コマンドラインで以下を実行する
 ```sh
 $ java -jar <installer/path>/NemakiWareInstaller-x.x.jar
-```  
+``` 
