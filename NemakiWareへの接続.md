@@ -1,7 +1,7 @@
 [English](https://github.com/aegif/NemakiWare/wiki/Access)/日本語
 ***
 
-# 接続先
+## 接続先
 
 * 接続先 URL
   * Web UI クライアントの URL: `http://<servername>:<port>/ui/`  
@@ -16,7 +16,7 @@
   * CMISサーバURL(AtomPub形式で接続): `http://trial.nemakiware.com:8080/core/atom/bedroom`
   * CMISサーバURL(JSON形式で接続): `http://trial.nemakiware.com:8080/core/browser/bedroom`
 
-# ログイン情報
+## ログイン情報
 * ユーザ名: `admin`
 * パスワード: ユーザ名と同じ
 
