@@ -4,7 +4,7 @@
 リンク先が英語の場合があります。日本語化は随時進めていきます。
 
 ユーザ向け:
-* [NemakiWareへのアクセス](https://github.com/aegif/NemakiWare/wiki/NemakiWare%E3%81%B8%E3%81%AE%E6%8E%A5%E7%B6%9A)
+* [NemakiWareへのアクセスとログイン](https://github.com/aegif/NemakiWare/wiki/NemakiWare%E3%81%B8%E3%81%AE%E6%8E%A5%E7%B6%9A)
 
 システム管理者向け:
 * インストール
