@@ -20,5 +20,5 @@
 * ユーザ名: `admin`
 * パスワード: ユーザ名と同じ
 
-
+![NemakiWare Login Screen](images/NemakiWare-Login-Ja.png)
 
