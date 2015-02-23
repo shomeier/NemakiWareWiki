@@ -1,7 +1,7 @@
 English/[日本語](https://github.com/aegif/NemakiWare/wiki/Home%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89)
 ***
 User:
-* [Access](https://github.com/aegif/NemakiWare/wiki/AccessNemakiWare)
+* [Access And Login](https://github.com/aegif/NemakiWare/wiki/AccessNemakiWare)
 
 Administrator:
 * [Prerequisites for installation](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-installation)
