@@ -4,12 +4,14 @@
 リンク先が英語の場合があります。日本語化は随時進めていきます。
 
 ユーザ向け:
-* Web UI クライアントの URL: `http://<servername>:8080/ui/`
-* CMIS Atom URL: `http://<servername>:8080/core/atom/bedroom`
-* CMIS Browser URL: `http://<servername>:8080/core/browser/bedroom`
+* 接続先 URL
+  * Web UI クライアントの URL: `http://<servername>:<port>/ui/`
+  * CMISサーバURL(AtomPub形式で接続): `http://<servername>:<port>/core/atom/bedroom`
+  * CMISサーバURL(JSON形式で接続): `http://<servername>:<port>/core/browser/bedroom`
 * オンライントライアルサイト（ユーザ名: `admin` パスワード: ユーザ名と同じ）
   * Web UI クライアントの URL:  `http://trial.nemakiware.com:8080/ui/` 
-  * CMIS URL: `http://trial.nemakiware.com:8080/core/atom/bedroom`
+  * CMISサーバURL(AtomPub形式で接続): `http://trial.nemakiware.com:8080/core/atom/bedroom`
+  * CMISサーバURL(JSON形式で接続): `http://trial.nemakiware.com:8080/core/browser/bedroom`
 
 システム管理者向け:
 * インストール
