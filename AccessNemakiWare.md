@@ -9,6 +9,6 @@ English/[日本語](https://github.com/aegif/NemakiWare/wiki/Home%EF%BC%88%E6%97
   * Web UI URL:  `http://trial.nemakiware.com:8080/ui/` 
   * CMIS URL: `http://trial.nemakiware.com:8080/core/atom/bedroom`
 
-# Default login
+# Default credentials
 * user: `admin`
 * password: `admin`
