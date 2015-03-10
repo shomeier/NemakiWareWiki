@@ -36,8 +36,10 @@ session.setDefaultContext(operationContext);
 
 * フォルダの作成
 ```java
+import org.apache.chemistry.opencmis.client.api.ObjectId
+
 HashMap<String, Object> param = new HashMap<String, Object>();
 param.put(PropertyIds.OBJECT_TYPE_ID, objectTypeId);
 param.put(PropertyIds.NAME, "folder name");
-session.createFolder(param, parentId);
+ObjectId objectId = session.createFolder(param, parentId); //Returns object id of the created object
 ```
