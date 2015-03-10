@@ -2,8 +2,17 @@
 CMISセッションを作成してCMISサーバに接続し、セッションの持つCMISメソッドを呼び出して操作します。<br>
 取得したCmisObject(フォルダやドキュメント)に対して同様のメソッドを呼び出すこともできます。<br>
 
-* CMISセッションの生成
+* ライブラリ<br>
+CMISクライアントを開発するための標準的なライブラリがオープンソースで用意されています。<br>
+[Apache Chemistry](http://chemistry.apache.org/)の[OpenCMIS](http://chemistry.apache.org/java/opencmis.html)ライブラリを(mavenなどで)自分のプロジェクトにインポートします。<br>
+通常、CMISクライアントを開発するためには、以下のパッケージをインポートする必要があるでしょう:<br>
+chemistry-opencmis-commons-api  
+chemistry-opencmis-commons-impl  
+chemistry-opencmis-client-api  
+chemistry-opencmis-client-impl  
+chemistry-opencmis-client-bindings   
 
+* CMISセッションの生成
 ```java
 import org.apache.chemistry.opencmis.client.api.OperationContext;
 import org.apache.chemistry.opencmis.client.api.Session;
