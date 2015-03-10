@@ -75,3 +75,14 @@ CmisObject object = session.getObject(id);
 CmisObject object = session.getObject(id);
 List<Document> versions = ((Document)object).getAllVersions();
 ```
+
+* 属性の更新
+```java
+CmisObject object = session.getObject(id);
+
+//Build property values (no need for the properties not to be updated)
+Map<String, Object> properties = new HashMap<String, Object>();
+properties.put(PropertyIds.NAME, "new name");
+
+object.updateProperties(properties);
+```
