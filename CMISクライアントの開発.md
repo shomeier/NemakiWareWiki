@@ -118,5 +118,41 @@ pwc.updateProperties(properties);
 
 //Check in
 //the first argument "true" means major version update
-ObjectId newDocId = doc.checkIn(true, properties, contentStream, "Check in comment");
+ObjectId newDocId = pwc.checkIn(true, properties, contentStream, "Check in comment");
+```
+
+* オブジェクトの削除
+```java
+CmisObject object = session.getObject(id);
+object.delete();
+```
+or
+```java
+CmisObject object = session.getObject(id);
+session.delete(new ObjectIdImpl(id));
+```
+
+* フォルダ(子要素が存在する場合)の削除
+```java
+CmisObject object = session.getObject(id);
+Folder folder = (Folder)object;
+folder.deleteTree(true, null, true);
+```
+
+* 検索
+```java
+//Build query statement
+MessageFormat format = new MessageFormat("cmis:name LIKE ''%{0}%'' OR CONTAINS(''{0}'')");
+String statement = "";
+if (StringUtils.isNotBlank(term)) {
+   statement = format.format(new String[] { term });
+}
+
+//Execute query
+ItemIterable<CmisObject> results = session.queryObjects("cmis:document", statement, false, session.getDefaultContext());
+Iterator<CmisObject> itr = docResults.iterator();
+List<CmisObject> list = new ArrayList<CmisObject>();
+while (itr.hasNext()) {
+   list.add(itr.next());
+}
 ```
