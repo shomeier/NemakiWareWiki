@@ -1,3 +1,7 @@
+* 概要
+CMISセッションを作成してCMISサーバに接続し、セッションの持つCMISメソッドを呼び出して操作します。<br>
+場合によっては、CMISオブジェクト(フォルダなど)に対して実行するメソッドもあります。(deleteTreeなど)<br>
+
 * CMISセッションの生成
 
 ```java
@@ -28,4 +32,12 @@ Session session = f.createSession(parameter);
 OperationContext operationContext = session.createOperationContext(null,
 		true, true, false, IncludeRelationships.BOTH, null, false, null, true, 100);
 session.setDefaultContext(operationContext);
+```
+
+* フォルダの作成
+```java
+HashMap<String, Object> param = new HashMap<String, Object>();
+param.put(PropertyIds.OBJECT_TYPE_ID, objectTypeId);
+param.put(PropertyIds.NAME, "folder name");
+session.createFolder(param, parentId);
 ```
