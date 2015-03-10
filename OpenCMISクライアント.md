@@ -36,10 +36,22 @@ session.setDefaultContext(operationContext);
 
 * フォルダの作成
 ```java
-import org.apache.chemistry.opencmis.client.api.ObjectId
-
 HashMap<String, Object> param = new HashMap<String, Object>();
-param.put(PropertyIds.OBJECT_TYPE_ID, objectTypeId);
+param.put(PropertyIds.OBJECT_TYPE_ID, "cmis:folder");
 param.put(PropertyIds.NAME, "folder name");
 ObjectId objectId = session.createFolder(param, parentId); //Returns object id of the created object
+```
+
+* ドキュメントの作成
+```java
+import org.apache.chemistry.opencmis.commons.data.ContentStream
+HashMap<String, Object> param = new HashMap<String, Object>();
+param.put(PropertyIds.OBJECT_TYPE_ID, "cmis:document");
+param.put(PropertyIds.NAME, "document name");
+
+//Get content stream(file content) from somewhere
+ContentStream contentStream;
+session.getObjectFactory().createContentStream(filename, length, mimetype, fileInputStream);
+
+ObjectId objectId = session.createDocument(param, parentId, contentStream, VersioningState.MAJOR);
 ```
