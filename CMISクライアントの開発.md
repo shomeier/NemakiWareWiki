@@ -76,7 +76,7 @@ CmisObject object = session.getObject(id);
 List<Document> versions = ((Document)object).getAllVersions();
 ```
 
-* 属性の更新
+* 属性の更新(チェックアウトなし・直接更新)
 ```java
 CmisObject object = session.getObject(id);
 
@@ -85,4 +85,38 @@ Map<String, Object> properties = new HashMap<String, Object>();
 properties.put(PropertyIds.NAME, "new name");
 
 object.updateProperties(properties);
+```
+
+* ファイルの更新(チェックアウトなし・直接更新)
+```java
+CmisObject object = session.getObject(id);
+Document document = (Document) object;
+
+ContentStream contentStream = ... //Get content stream from somewhere
+
+doc.setContentStream(contentStream, true);
+```
+
+* チェックアウト・チェックイン
+```java
+CmisObject object = session.getObject(id);
+Document document = (Document) object;
+
+//Check out
+if (doc.isVersionSeriesCheckedOut()) {
+   // You cannot checked out a document twice!
+}
+
+//Check out action makes a private working copy as an independent object
+ObjectId pwcId = doc.checkOut(); //Returns private working copy id
+
+//Some udpate to the private working copy (pwc)
+CmisObject pwc = session.getObject(pwcId.getId());
+pwc.setContentStream(contentStream, true);
+pwc.updateProperties(properties);
+...
+
+//Check in
+//the first argument "true" means major version update
+ObjectId newDocId = doc.checkIn(true, properties, contentStream, "Check in comment");
 ```
