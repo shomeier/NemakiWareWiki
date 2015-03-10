@@ -76,6 +76,17 @@ CmisObject object = session.getObject(id);
 List<Document> versions = ((Document)object).getAllVersions();
 ```
 
+* ファイルのダウンロード
+```java
+CmisObject object = session.getObject(id);
+Document document = (Document) object;
+ContentStream contentStream = doc.getContentStream();
+
+//Convert content stream to input stream or file
+InputStream inputStream = contentStream.getStream();
+File file = File.createTempFile(contentStream.getFileName(), "");
+```
+
 * 属性の更新(チェックアウトなし・直接更新)
 ```java
 CmisObject object = session.getObject(id);
