@@ -64,5 +64,5 @@ CmisObject object = session.getObject(id);
 * ドキュメントのバージョン一覧の取得
 ```java
 CmisObject object = session.getObject(id);
-List<Document> result = ((Document)object).getAllVersions();
+List<Document> versions = ((Document)object).getAllVersions();
 ```
