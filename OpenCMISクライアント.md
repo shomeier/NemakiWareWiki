@@ -55,3 +55,14 @@ session.getObjectFactory().createContentStream(filename, length, mimetype, fileI
 
 ObjectId objectId = session.createDocument(param, parentId, contentStream, VersioningState.MAJOR);
 ```
+
+* オブジェクトの取得(ID指定)
+```java
+CmisObject object = session.getObject(id);
+```
+
+* ドキュメントのバージョン一覧の取得
+```java
+CmisObject object = session.getObject(id);
+List<Document> result = ((Document)object).getAllVersions();
+```
