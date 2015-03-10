@@ -27,8 +27,8 @@ parameter.put(SessionParameter.USER, id);
 parameter.put(SessionParameter.PASSWORD, password);
 
 // session locale
-parameter.put(SessionParameter.LOCALE_ISO3166_COUNTRY, "");
-parameter.put(SessionParameter.LOCALE_ISO639_LANGUAGE, "");
+parameter.put(SessionParameter.LOCALE_ISO3166_COUNTRY, country);
+parameter.put(SessionParameter.LOCALE_ISO639_LANGUAGE, language);
 
 // repository url
 parameter.put(SessionParameter.BINDING_TYPE, BindingType.ATOMPUB.value());
