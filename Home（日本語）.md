@@ -30,6 +30,7 @@
 * [設定方法（全文検索エンジン）](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28search-engine%29)
 * [設定方法（Web UI クライアント）](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28Client%29)
 * [DAOを差し替えて他のDBを使うには](https://github.com/aegif/NemakiWare/wiki/Note-on-writing-another-DAO)
+* [CMISクライアントの開発](https://github.com/aegif/NemakiWare/wiki/CMIS%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA)
 
 ---
 このWiki内では、パス内で次のような文字を使っています。
