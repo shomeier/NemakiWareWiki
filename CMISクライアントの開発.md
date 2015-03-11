@@ -65,6 +65,16 @@ session.getObjectFactory().createContentStream(filename, length, mimetype, fileI
 ObjectId objectId = session.createDocument(param, parentId, contentStream, VersioningState.MAJOR);
 ```
 
+* リレーションの作成
+```java
+HashMap<String, Object> param = new HashMap<String, Object>();
+param.put(PropertyIds.NAME, "relationship name");
+param.put(PropertyIds.SOURCE_ID, sourceObjectId);
+param.put(PropertyIds.TARGET_ID, sourceObjectId);
+
+ObjectId objectId = session.createRelationship(properties);
+```
+
 * オブジェクトの取得(ID指定)
 ```java
 CmisObject object = session.getObject(id);
