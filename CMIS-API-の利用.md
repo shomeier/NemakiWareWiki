@@ -177,3 +177,5 @@ while (itr.hasNext()) {
    list.add(itr.next());
 }
 ```
+
+statementには CMIS Query の記法をつかいます。記法については[CMIS Query の利用](https://github.com/aegif/NemakiWare/wiki/CMIS-Query-%E3%81%AE%E5%88%A9%E7%94%A8)を参照ください。
