@@ -1,4 +1,4 @@
-English/[日本語](https://github.com/aegif/NemakiWare/wiki/CMIS-Workbench%EF%BC%88%E7%B0%A1%E6%98%93%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%EF%BC%89)
+English/[日本語](https://github.com/aegif/NemakiWare/wiki/NemakiWare%E3%81%B8%E3%81%AE%E6%8E%A5%E7%B6%9A)
 ***
 
 # Access URL
