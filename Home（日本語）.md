@@ -25,7 +25,7 @@
 * [開発前の準備](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-development)
 * [開発をはじめるには](https://github.com/NemakiWare/NemakiWare/wiki/Start-development)
 * [インストーラの作成方法](https://github.com/NemakiWare/NemakiWare/wiki/Generate-an-installer)
-* [CMISワークベンチについて](https://github.com/NemakiWare/NemakiWare/wiki/CMIS-Workbench%28Simple-client%29)
+* [簡易クライアント CMIS Workbench について](https://github.com/aegif/NemakiWare/wiki/CMIS-Workbench%EF%BC%88%E7%B0%A1%E6%98%93%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%EF%BC%89)
 * [設定方法（CMISサーバ）](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28CMIS-server%29)
 * [設定方法（全文検索エンジン）](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28search-engine%29)
 * [設定方法（Web UI クライアント）](https://github.com/NemakiWare/NemakiWare/wiki/Configuration%28Client%29)
