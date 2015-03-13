@@ -10,5 +10,5 @@ etc.
 
 that'll be a nice choice.
 
-Sample : 
+Login Setting Sample : 
 ![Setting sample image](https://raw.githubusercontent.com/wiki/aegif/NemakiWare/Images/WorkbenchSample.png)
