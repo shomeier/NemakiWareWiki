@@ -1,21 +1,21 @@
 ドキュメントやフォルダを API queryObjects メソッドを使って検索する際に引数に、CMIS Query という記法で書かれたクエリを渡します。CMIS Query はこれは SQL-92 をベースにしてしたクエリ言語になっています。以下に簡単なサンプルを示します。
 
-すべてのドキュメントをSELECT
+すべてのドキュメントを取得します。
 ```SQL
 SELECT * FROM cmis:document
 ```
 
-すべてのフォルダをSELECT
+すべてのフォルダを取得します。
 ```SQL
 SELECT * FROM cmis:folder
 ```
 
-特定のプロパティをSELECT
+特定のプロパティのみを取得します。
 ```SQL
 SELECT cmis:name, cmis:objectId FROM cmis:document
 ```
 
-エイリアスも使えます
+エイリアスも使えます。
 ```SQL
 SELECT
    F.cmis:name AS name
@@ -44,4 +44,7 @@ WHERE句で IN_TREE('folderのobjectId') を使うと、指定したフォルダ
 SELECT * FROM cmis:document WHERE IN_TREE('b11bf1bf25317a8fa2941b8f140148b6') 
 ```
 
-
+ORDER BY による並べ替えは使用できます。GROUP BY や HAVING は使用できません。以下は、登録日順にソートして、ドキュメントをすべて取得します。
+```SQL
+SELECT * FROM cmis:document  ORDER BY cmis:creationDate
+```
