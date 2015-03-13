@@ -9,3 +9,6 @@ In fact, it's very useful and provides almost all the client functions apart fro
 etc.
 
 that'll be a nice choice.
+
+Sample : 
+![Setting sample image](https://raw.githubusercontent.com/wiki/aegif/NemakiWare/Images/WorkbenchSample.png)
