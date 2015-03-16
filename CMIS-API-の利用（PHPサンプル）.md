@@ -15,7 +15,9 @@ C:\phpclient\trunk\atom;C:\phpclient\trunk\atom\cmis
 
 例では
 
+```
 php -f cmis_ls.php <rest-endpoint> <username> <password> <folderpath> [debug option 1](2.html)
+```
 
 とありますが、この cmis_ls.php サンプルソースコードにはバグがあり、require_once で cmis_service を読みこむ必要があります。
 
