@@ -23,11 +23,12 @@ config.vm.box_url = "https://github.com/downloads/roderik/VagrantQuantal64Box/qu
 (Thanks to [jlank](https://github.com/jlank))
 
 ###CentOS
-##Version 5まで
+###Version 5系
 CentOS へのインストールも[CouchDB の Wiki ページ](http://wiki.apache.org/couchdb/Installing_on_RHEL5)を参照して下さい。EPELリポジトリを有効にしておく必要があります。
 
-##Version 6系
+####Version 6系
 上記のやり方では上手く行きません。下記のスクリプトを参考にインストールを試みてください。
+
 ```sh
 #!/bin/sh
 
