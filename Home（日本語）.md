@@ -20,6 +20,7 @@
  * [全文検索エンジンの管理について](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-search-engine)
  * [クライアントの管理について](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-client)
  * [データの初期化](https://github.com/NemakiWare/NemakiWare/wiki/Data-initialization)
+ * [ログの出力](https://github.com/aegif/NemakiWare/wiki/%E3%83%AD%E3%82%B0%E3%81%AE%E5%87%BA%E5%8A%9B)
 
 開発者向け:
 * [開発前の準備](https://github.com/NemakiWare/NemakiWare/wiki/Prerequisites-for-development)
