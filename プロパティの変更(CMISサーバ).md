@@ -14,4 +14,4 @@
   
 
 * 開発者にとっては、`custom-nemakiware.properties`がもっとも重要です。このプロパティファイルはwarの中に含まれます。
-* サーバ管理者にとっては、`app-server-xxx.properties`がもっとも重要です。インストーラでの設定値もここに反映されます。またapp-server-general.propertiesでは、どんなプロパティでも上書きできます。
+* サーバ管理者にとっては、`app-server-xxx.properties`がもっとも重要です。インストーラでの設定値もここに反映されます。また`app-server-general.properties`では、どんなプロパティでも上書きできます。
