@@ -142,6 +142,14 @@ pwc.updateProperties(properties);
 ObjectId newDocId = pwc.checkIn(true, properties, contentStream, "Check in comment");
 ```
 
+* チェックアウトのキャンセル
+```java
+CmisObject object = session.getObject(id);
+Document document = (Document) object;
+
+document.cancelCheckOut();
+```
+
 * オブジェクトの削除
 ```java
 CmisObject object = session.getObject(id);
