@@ -8,7 +8,7 @@ Object type has:
 CMIS server predefines some basic types such as `cmis:document` and `cmis:folder`.
 You can add your own customized object types extending these basic types, adding custom property fields and overriding attributes.
 
-###Property definition
+###Property definitions
 ex. cmis:name, cmis:description, cmis:creationDate etc.
 
 ###Attributes
@@ -469,6 +469,45 @@ Definition files can be downloaded from object type administration UI, and you c
 }
 ```
 
+###New type definition file(sample)
+Thanks to type inheritance, most of attributes and all property definitions can be left out.  
+You must write them explicitly only when you want to override or add some parameter.
+
+```
+{
+    "id": "nemaki:document",
+    "localName": "nemaki:document",
+    "localNamespace":,
+    "displayName": "nemaki customized document",
+    "queryName": "nemaki:document",
+    "description": "nemaki document's description",
+    "baseId": "cmis:document",
+    "contentStreamAllowed": "allowed",
+    "propertyDefinitions": {
+        "nemaki:tag": {
+            "id": "nemaki:tag",
+            "localName": "nemaki:tag",
+            "localNamespace": ,
+            "displayName": "nemaki:tag",
+            "queryName": "nemaki:tag",
+            "description": "nemaki:tag",
+            "propertyType": "string",
+            "cardinality": "multi",
+            "updatability": "readwrite",
+            "inherited": false,
+            "required": false,
+            "queryable": true,
+            "orderable": false,
+            "openChoice": false
+        }
+    }
+}
+```
 
 ##Primary object type / Secondary object type
-Object type such as cmis::document and cmis:folder is basically primary type, but there are 
+Object type such as cmis::document and cmis:folder is basically primary type, but there are special types called "secondary" object types.  
+Secondary type corresponds to "aspect". It can be taken on/off to an object with its complementary property definitions. 
+
+Every secondary type is defined as what inherits `cmis:secondary` type.  
+A secondary type can be defined by a json file above mentioned.  
+To apply a secondary type to an object, update property `cmis:scondaryObjectTypesIds` of the object with the secondary type's ID.
