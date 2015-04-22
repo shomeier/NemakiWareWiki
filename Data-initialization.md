@@ -7,6 +7,3 @@ Do not forget to initialize Solr and NemakiShare client after initializing Couch
 
 ## Solr
 See [this link](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-search-engine#initialization-and-reindex).
-
-## NemakiShare
-See [this link](https://github.com/NemakiWare/NemakiWare/wiki/Administration-of-client#initializing-the-stored-change-log)
