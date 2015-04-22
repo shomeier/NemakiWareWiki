@@ -6,7 +6,8 @@ NemakiWare installer does not install CouchDB.
 ##CouchDB installation TIPS
 ###Package installer
 The most comfortable way is to download a CouchDB package installer from [Official Page](http://couchdb.apache.org/).  
-But it's only for Mac and Windows at present.
+
+You can also install it by your package system.
 
 ###Mac
 If you want to use HomeBrew or MacPorts, see [Wiki](http://wiki.apache.org/couchdb/Installing_on_OSX).
@@ -27,4 +28,4 @@ See [Wiki](http://wiki.apache.org/couchdb/Installing_on_RHEL5).
 However, EPEL repository may be stale at present.
 
 In order to install CouchDB and some dependencies from source code, we provide a script:  
-```<SOURCE_CODE_FOLDER>/setup/couchdb/couchdb_install_centos6.sh```
+`<SOURCE_CODE_FOLDER>/setup/couchdb/couchdb_install_centos6.sh`
