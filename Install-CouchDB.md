@@ -24,4 +24,7 @@ config.vm.box_url = "https://github.com/downloads/roderik/VagrantQuantal64Box/qu
 
 ###CentOS
 See [Wiki](http://wiki.apache.org/couchdb/Installing_on_RHEL5).  
-You must enable EPEL repositories.
+However, EPEL repository may be stale at present.
+
+In order to install CouchDB and some dependencies from source code, we provide a script:  
+```<SOURCE_CODE_FOLDER>/setup/couchdb/couchdb_install_centos6.sh```
