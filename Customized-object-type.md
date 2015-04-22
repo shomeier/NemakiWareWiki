@@ -1,10 +1,18 @@
 ---
 ##What is an object type?
 CMIS object type is to a CMIS object what "class" is to an "instance" in the object-oriented language.  
-Object type has a set of properties(metadata) definitions.
+Object type has:
+- a set of properties(metadata) definitions
+- attributes of the type itself
 
 CMIS server predefines some basic types such as `cmis:document` and `cmis:folder`.
-You can add your own customized object types extending these basic types, adding custom property fields.
+You can add your own customized object types extending these basic types, adding custom property fields and overriding attributes.
+
+###Property definition
+ex. cmis:name, cmis:description, cmis:creationDate etc.
+
+###Attributes
+ex. type ID, queryable, contentStreamAllowed, versionable etc.
 
 ##Type inheritance
 Customized object type has to be defined as a child of a basic type or another customized type which is already defined.  
