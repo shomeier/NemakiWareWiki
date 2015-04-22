@@ -4,7 +4,7 @@
 ## Capability
 
 ## ObjectType
-
+[Customized object type](https://github.com/aegif/NemakiWare/wiki/Customized-object-type)
 ## Permission
 Default permission settings are defined in  
 * `<SOURCE_PATH>/nemakiware/src/main/webapp/WEB-INF/classes/permission.yml`  
