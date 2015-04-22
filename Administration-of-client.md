@@ -24,4 +24,4 @@ It is written in [Play 2 framework](https://www.playframework.com/) using Java l
 * Solr  
 Administrator can initialize and rebuild Solr index.
 * Object type  
-Administrator can upload a json file to create a new object type.
+Administrator can download and upload a json file to create a new object type.
