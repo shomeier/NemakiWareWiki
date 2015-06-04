@@ -5,6 +5,8 @@
   (You must install by yourself CouchDB)
 
 # Installer
+Installer runs on multi-platform.  
+
 * Download the latest installer  
 [https://github.com/aegif/NemakiWare/releases](https://github.com/aegif/NemakiWare/releases)
 * Run the installer
