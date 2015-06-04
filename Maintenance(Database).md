@@ -1,4 +1,4 @@
-# Data dump/load tool
+# <a name ="data_tool">Data dump/load tool
 ## Tool
 `<INSTALL_PATH>/setup/couchdb/bjornloka.jar`  
 
@@ -27,6 +27,19 @@ So, the command will be like:
 
 So, the command will be like:  
 `java -cp bjornloka/target/bjornloka.jar jp.aegif.nemaki.bjornloka.Load 127.0.0.1 5984 bedroom ~/Desktop/dump true`
+
+# Data initialization
+Load initialization data using the [dump/load tool](data_tool).  
+
+Initialization data are:  
+`<INSTALL_PATH>/setup/couchdb/initial_import/bedroom_init.dump`  
+`<INSTALL_PATH>/setup/couchdb/initial_import/archive_init.dump`  
+# Repository initialization
+`java -cp bjornloka/target/bjornloka.jar jp.aegif.nemaki.bjornloka.Load <host_address> <db_port> <repository_id> bedroom_init.dump true`
+# Repository archive initialization
+`java -cp bjornloka/target/bjornloka.jar jp.aegif.nemaki.bjornloka.Load <host_address> <db_port> <repository_id> archive_init.dump true`
+
+
 
 # CouchDB UI
 ## Futon
