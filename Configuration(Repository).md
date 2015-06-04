@@ -1,4 +1,4 @@
-# Properties architecture
+# Property architecture
 ##Overwriting
 
 ##Referenced setting files
