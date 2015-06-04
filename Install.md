@@ -1,10 +1,10 @@
-## Prerequisites
+# Prerequisites
 * Linux/Windows/Mac
 * Java 1.6+
 * CouchDB<br>
   (You must install by yourself CouchDB)
 
-## Installer
+# Installer
 * Download the latest installer  
 [https://github.com/aegif/NemakiWare/releases](https://github.com/aegif/NemakiWare/releases)
 * Run the installer
