@@ -20,3 +20,8 @@ Installer runs on multi-platform.
   - Each item in the installer can be skipped. For example:
     - You can reinitialize only CouchDB.
     - You can update only war files + tomcat server.
+
+# Start up
+- Make sure you have already run CouchDB before starting NemakiWare
+- Then, all you need to do is just run the tomcat server  
+  `sh <TOMCAT_PATH>/bin/startup.sh`
