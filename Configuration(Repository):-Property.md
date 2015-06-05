@@ -14,6 +14,6 @@ Original setting files are in `<SOUCE_PATH>/core/src/main/webapp/WEB-INF/classes
   Defines all kinds of permission(cmis:read, cmis:write, etc.)  
 - `permission-mapping.yml`  
   Defines the mapping between an CMIS action(e.g.`canDelete.Object`) and required permissions to execute it  
+  
 ## Log
--   
 ## Other
