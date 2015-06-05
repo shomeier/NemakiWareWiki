@@ -12,3 +12,5 @@
 
 # List of properties
 (TODO: link)
+
+# Object type
