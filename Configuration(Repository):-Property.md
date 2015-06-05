@@ -1,5 +1,5 @@
 # Change properties
-`<TOMCAT_PATH>/shared/classes/app-server-core.properties`
+Add properties to be overwrote into `<TOMCAT_PATH>/shared/classes/app-server-core.properties`
 
 # List of properties
 In the source code, properties are managed by the Spring context file [propertyContext.xml](https://github.com/aegif/NemakiWare/blob/master/core/src/main/webapp/WEB-INF/classes/propertyContext.xml).  
@@ -24,7 +24,7 @@ All the default properties are described here:
 - [nemakiware-basetype.properties](https://github.com/aegif/NemakiWare/blob/master/core/src/main/webapp/WEB-INF/classes/nemakiware-basetype.properties)  
   Defines CMIS object type's attributes following CMIS specification. Basically you should **NOT** change this.  
 - [nemakiware-property.properties](https://github.com/aegif/NemakiWare/blob/master/core/src/main/webapp/WEB-INF/classes/nemakiware-property.properties)  
-  Defines CMIS property's attributes following CMIS specification. Basically you should NOT **change** this.  
+  Defines CMIS property's attributes following CMIS specification. Basically you should **NOT** change this.  
 
 #Referenced setting files
 Some setting files are designated by a property.  
