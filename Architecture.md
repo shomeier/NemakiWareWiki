@@ -1,13 +1,20 @@
 # Components
 ## CMIS repository
+- CMIS functionalities
+- Additional API
+  - User/Group, Archive etc.  
+
+## CouchDB
+- NoSQL database
+- NemakiWare creates two "tables" in CouchDB
+  - `bedroom`: main database to store all the available nodes  
+  - `archive`: archive database to store all the deleted nodes  
 
 ## User interface
 
 ## Solr
 - Full text search engine for both metadata and content
 - Connects to the repository at certain intervals (every 30sec by default).  
-
-## CouchDB
 
 # Application Server
 All the components except database are contained in a Tomcat server.  
