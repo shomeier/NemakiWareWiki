@@ -1,8 +1,13 @@
 # Components
-- CMIS repository
-- User interface
-- Solr
-- CouchDB
+## CMIS repository
+
+## User interface
+
+## Solr
+- Full text search engine for both metadata and content
+- Connects to the repository at certain intervals (every 30sec by default).  
+
+## CouchDB
 
 # Application Server
 All the components except database are contained in a Tomcat server.  
