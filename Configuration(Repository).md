@@ -4,4 +4,4 @@
 
 # [Permission](https://github.com/aegif/NemakiWare/wiki/Permission)
 
-# [Authentication]()
+# [Authentication](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%29:-Authentication)
