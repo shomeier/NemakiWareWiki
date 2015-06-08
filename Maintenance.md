@@ -1,4 +1,3 @@
-# Repository
-# UI
-# Solr
 # [Database](Maintenance(Database))
+# [Log]()
+# [Update]()
