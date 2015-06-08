@@ -1,5 +1,6 @@
 # Change properties
-Add properties to be overwrote into `<TOMCAT_PATH>/shared/classes/app-server-core.properties`
+Add properties to be overwrote into:  
+`<TOMCAT_PATH>/shared/classes/app-server-core.properties`
 
 # List of properties
 In the source code, properties are managed by the Spring context file [propertyContext.xml](https://github.com/aegif/NemakiWare/blob/master/core/src/main/webapp/WEB-INF/classes/propertyContext.xml).  
