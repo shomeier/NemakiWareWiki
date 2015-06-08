@@ -5,7 +5,8 @@
   (You must install by yourself CouchDB)
 
 # Installer
-Installer runs on multi-platform.  
+- Installer runs on multi-platform.  
+- Installer is build using [IzPack](http://izpack.org/). 
 
 ## Download the latest installer  
 [https://github.com/aegif/NemakiWare/releases](https://github.com/aegif/NemakiWare/releases)
@@ -15,8 +16,7 @@ Installer runs on multi-platform.
     Simply click the execution file, or `java -jar <installer_file>`  
   - CUI  
     `java -jar <installer_file> -console`  
-  - Installer is build using [IzPack](http://izpack.org/).  
-
+ 
 ## Note
   - **You must install and start CouchDB before this installation.**  
   - Each item in the installer can be skipped. For example:  
