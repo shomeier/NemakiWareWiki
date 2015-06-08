@@ -2,4 +2,4 @@
 
 # [Object type](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%29:-Object-type)
 
-# Permission
+# [Permission](https://github.com/aegif/NemakiWare/wiki/Permission)
