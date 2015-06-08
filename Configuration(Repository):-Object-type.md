@@ -13,5 +13,7 @@
 - Any object type must inherits another object type(including basic type).
 
 # View object type's detail
+UI: Admin console > Type
 
 # Add new object type
+UI: Admin console > Type
