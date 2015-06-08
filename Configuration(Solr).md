@@ -1,0 +1,2 @@
+# Property
+# Solr scheme
