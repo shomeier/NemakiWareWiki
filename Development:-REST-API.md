@@ -26,3 +26,8 @@
     }
 }
 ```
+
+## Send
+The token is sent as HTTP parameters.  
+- `nemaki_auth_token`: registered token
+- `nemaki_auth_token_app`: {appName} above
