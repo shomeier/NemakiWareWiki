@@ -9,5 +9,5 @@
 - This will do good for performance since decoding a password each time takes some time.
 
 ### How to get a token
-(TODO:link)
+[See this link](https://github.com/aegif/NemakiWare/wiki/Development:-REST-API#authtoken)
 
