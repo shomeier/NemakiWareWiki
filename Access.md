@@ -1,4 +1,4 @@
-English/日本語 
+English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9)
 ***
 #Default credentials
 - ID: admin
