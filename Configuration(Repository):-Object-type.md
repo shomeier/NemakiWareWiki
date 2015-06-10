@@ -1,4 +1,4 @@
-English/日本語 
+English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A%28%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%29:-%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%BF%E3%82%A4%E3%83%97) 
 ***
 # What is CMIS object type?
 ## "Class" of each "instance"(document/folder)
