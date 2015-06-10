@@ -7,6 +7,8 @@ At the moment, the logs of all the applications(repository, UI, Solr) are put in
 You can configure the properties in the ordinary way.  
 See [this link](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%29:-Property).  
 
+Log properties are found in the log section in [nemakiware.properties](https://github.com/aegif/NemakiWare/blob/master/core/src/main/webapp/WEB-INF/classes/nemakiware.properties).
+
 Example:  
 - target methods  
   Default to "CMIS" API
