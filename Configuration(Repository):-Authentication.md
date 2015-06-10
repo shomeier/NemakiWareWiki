@@ -1,3 +1,5 @@
+English/日本語 
+***
 # Available authentication
 ## Basic authentication
 - Sends username/password on the HTTP header.
