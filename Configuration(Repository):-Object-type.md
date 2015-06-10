@@ -12,7 +12,7 @@ English/日本語
 ## Custom type
 - You can add your own custom object type with additional custom properties.
 - There are the inheritance system of object types.
-- Any object type must inherits another object type(including basic type).
+- Any custom object type must inherits another object type(including basic type).
 
 # View object type's detail
 UI: Admin console > Type  
