@@ -1,3 +1,5 @@
+English/日本語 
+***
 # Data dump/load tool
 ## Tool
 `<INSTALL_PATH>/setup/couchdb/bjornloka.jar`  
