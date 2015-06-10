@@ -1,3 +1,5 @@
+English/日本語 
+***
 # How it works
 ## Principal(user/group), Permission and Action
 - Each node(document/folder) has its ACL(Access Control List).
