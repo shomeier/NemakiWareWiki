@@ -1,3 +1,5 @@
+English/日本語 
+***
 # Change properties
 Add properties to be overwrote into:  
 `<TOMCAT_PATH>/shared/classes/app-server-core.properties`
