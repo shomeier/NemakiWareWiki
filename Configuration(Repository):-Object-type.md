@@ -1,3 +1,5 @@
+English/日本語 
+***
 # What is CMIS object type?
 ## "Class" of each "instance"(document/folder)
 - In CMIS domain model, object type defines each object(document/folder)'s "class".
