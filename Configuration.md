@@ -1,3 +1,5 @@
+English/日本語 
+***
 # [Repository](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%29)
 # UI
 # [Solr](https://github.com/aegif/NemakiWare/wiki/Configuration%28Solr%29)
