@@ -1,3 +1,5 @@
+English/日本語 
+***
 # Prerequisites
 * Linux/Windows/Mac
 * Java 1.6+
