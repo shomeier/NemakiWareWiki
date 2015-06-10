@@ -1,7 +1,7 @@
 English/日本語 
 ***
 # Change properties
-Add properties to be overwrote into:  
+Add properties to be overwritten into:  
 `<TOMCAT_PATH>/shared/classes/app-server-core.properties`
 
 # List of properties
@@ -20,7 +20,7 @@ These properties files are loaded in this order, so the latter overwrites the fo
 However, the first following files don't overlap each other.  
 All the default properties are described here:
 - [**nemakiware.properties**](https://github.com/aegif/NemakiWare/blob/master/core/src/main/webapp/WEB-INF/classes/nemakiware.properties)  
-  Properties in this file are the most important and overwrote frequently.  
+  Properties in this file are the most important and overwritten frequently.  
   
 - [nemakiware-capability.properties](https://github.com/aegif/NemakiWare/blob/master/core/src/main/webapp/WEB-INF/classes/nemakiware-capability.properties)  
   Defines CMIS capability. Some item can be configurable, though, basically you should **NOT** change this.  
