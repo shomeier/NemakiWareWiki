@@ -1,3 +1,3 @@
 # [Database](Maintenance(Database))
-# [Log]()
+# [Log](https://github.com/aegif/NemakiWare/wiki/Maintenance%28Log%29)
 # [Update]()
