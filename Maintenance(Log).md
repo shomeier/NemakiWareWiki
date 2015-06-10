@@ -1,3 +1,5 @@
+English/日本語 
+***
 # Production environment
 At the moment, the logs of all the applications(repository, UI, Solr) are put into tomcat `catalina.out`.
 
