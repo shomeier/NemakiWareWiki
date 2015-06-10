@@ -11,7 +11,7 @@ Log properties are found in the log section in [nemakiware.properties](https://g
 
 Example:  
 - target methods  
-  Default to "CMIS" API
+  They are specified as Spring point cut annotation, and set to 'CMIS API' by default.
 - log4j setting file  
   A custom setting file other than log4j.xml can be specified by Spring framework.
 - whether to return a value or not  
