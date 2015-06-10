@@ -1,3 +1,5 @@
+English/日本語 
+***
 #Default credentials
 - ID: admin
 - PWD: admin
