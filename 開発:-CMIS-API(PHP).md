@@ -1,6 +1,9 @@
-
+English/日本語
+***
+# 概要
 CMIS API を PHP から利用するには [Apache Chemistry の PHP クライアントの例](http://chemistry.apache.org/php/phpclient.html) が参考になります。サンプルのソースをSubversionでチェックアウトし、examples以下のサンプルを動かすと、CMIS APIを叩くことができます。
 
+# 準備
 コードを動かす前にパスを通す必要があります。引数でパスを渡すか、php.ini をひらいて、
 
 ```PHP
