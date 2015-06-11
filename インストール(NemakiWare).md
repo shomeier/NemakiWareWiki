@@ -1,4 +1,4 @@
-[English](https://github.com/aegif/NemakiWare/wiki/Install)/日本語 
+[English](https://github.com/aegif/NemakiWare/wiki/Install%28NemakiWare%29)/日本語 
 ***
 # 必要環境
 - Linux/Windows/Mac
