@@ -1,4 +1,4 @@
-English/日本語 
+English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%28%E3%83%AD%E3%82%B0%29)
 ***
 # Production environment
 At the moment, the logs of all the applications(repository, UI, Solr) are put into tomcat `catalina.out`.
