@@ -1,4 +1,4 @@
-English/日本語
+English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E9%96%8B%E7%99%BA:-CMIS-API%28PHP%29)
 ***
 # Introduction
 To use CMIS API from PHP, [Apache Chemistry's PHP client example](http://chemistry.apache.org/php/phpclient.html) is useful. Checking out the sample source code from the Subversion repository, you can call CMIS API in the exmaples.  
