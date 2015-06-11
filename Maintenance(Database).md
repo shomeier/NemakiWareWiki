@@ -36,9 +36,9 @@ Load initialization data using the [dump/load tool](https://github.com/aegif/Nem
 Initialization data are:  
 `<INSTALL_PATH>/setup/couchdb/initial_import/bedroom_init.dump`  
 `<INSTALL_PATH>/setup/couchdb/initial_import/archive_init.dump`  
-# Repository initialization
+# Main database initialization
 `java -cp bjornloka/target/bjornloka.jar jp.aegif.nemaki.bjornloka.Load <host_address> <db_port> <repository_id> bedroom_init.dump true`
-# Repository archive initialization
+# Archive database initialization
 `java -cp bjornloka/target/bjornloka.jar jp.aegif.nemaki.bjornloka.Load <host_address> <db_port> <repository_id> archive_init.dump true`
 
 # CouchDB UI
