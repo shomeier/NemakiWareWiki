@@ -6,9 +6,9 @@ English/日本語
 - Alternatively, most of operations can be executed by calling a retrieved CmisObject(like Folder or Document)'s method.
 
 # Library
-CMISクライアントを開発するための標準的なライブラリがオープンソースで用意されています。<br>
-[Apache Chemistry](http://chemistry.apache.org/)の[OpenCMIS](http://chemistry.apache.org/java/opencmis.html)ライブラリを(mavenなどで)自分のプロジェクトにインポートします。<br>
-通常、CMISクライアントを開発するためには、以下のパッケージをインポートする必要があるでしょう:<br>
+The standarad library for development of CMIS client is provided as open source software.  
+Import [Apache Chemistry](http://chemistry.apache.org/)'s [OpenCMIS](http://chemistry.apache.org/java/opencmis.html) library to your project (by maven, for example).    
+The following packages are required usually to develop a CMIS client:
 chemistry-opencmis-commons-api  
 chemistry-opencmis-commons-impl  
 chemistry-opencmis-client-api  
@@ -47,7 +47,7 @@ OperationContext operationContext = session.createOperationContext(null,
 session.setDefaultContext(operationContext);
 ```
 
-* フォルダの作成
+## Create a folder
 ```java
 HashMap<String, Object> param = new HashMap<String, Object>();
 param.put(PropertyIds.OBJECT_TYPE_ID, "cmis:folder");
@@ -55,7 +55,7 @@ param.put(PropertyIds.NAME, "folder name");
 ObjectId objectId = session.createFolder(param, parentId); //Returns object id of the created object
 ```
 
-* ドキュメントの作成
+## Create a document
 ```java
 import org.apache.chemistry.opencmis.commons.data.ContentStream
 HashMap<String, Object> param = new HashMap<String, Object>();
@@ -69,7 +69,7 @@ session.getObjectFactory().createContentStream(filename, length, mimetype, fileI
 ObjectId objectId = session.createDocument(param, parentId, contentStream, VersioningState.MAJOR);
 ```
 
-* リレーションの作成
+## Create a relationship
 ```java
 HashMap<String, Object> param = new HashMap<String, Object>();
 param.put(PropertyIds.NAME, "relationship name");
@@ -79,18 +79,18 @@ param.put(PropertyIds.TARGET_ID, sourceObjectId);
 ObjectId objectId = session.createRelationship(properties);
 ```
 
-* オブジェクトの取得(ID指定)
+## Get an object(specifying its ID)
 ```java
 CmisObject object = session.getObject(id);
 ```
 
-* ドキュメントのバージョン一覧の取得
+## Get the versions of a document
 ```java
 CmisObject object = session.getObject(id);
 List<Document> versions = ((Document)object).getAllVersions();
 ```
 
-* ファイルのダウンロード
+## Download a file
 ```java
 CmisObject object = session.getObject(id);
 Document document = (Document) object;
@@ -101,7 +101,7 @@ InputStream inputStream = contentStream.getStream();
 File file = File.createTempFile(contentStream.getFileName(), "");
 ```
 
-* 属性の更新(チェックアウトなし・直接更新)
+## Update properties(update directly without checking out)
 ```java
 CmisObject object = session.getObject(id);
 
@@ -112,7 +112,7 @@ properties.put(PropertyIds.NAME, "new name");
 object.updateProperties(properties);
 ```
 
-* ファイルの更新(チェックアウトなし・直接更新)
+## Update file(update directly without checking out)
 ```java
 CmisObject object = session.getObject(id);
 Document document = (Document) object;
@@ -122,7 +122,7 @@ ContentStream contentStream = ... //Get content stream from somewhere
 doc.setContentStream(contentStream, true);
 ```
 
-* チェックアウト・チェックイン
+## Check out & Check in
 ```java
 CmisObject object = session.getObject(id);
 Document document = (Document) object;
@@ -146,7 +146,7 @@ pwc.updateProperties(properties);
 ObjectId newDocId = pwc.checkIn(true, properties, contentStream, "Check in comment");
 ```
 
-* チェックアウトのキャンセル
+## Cancel check out
 ```java
 CmisObject object = session.getObject(id);
 Document document = (Document) object;
@@ -154,7 +154,7 @@ Document document = (Document) object;
 document.cancelCheckOut();
 ```
 
-* オブジェクトの削除
+## Delete an object
 ```java
 CmisObject object = session.getObject(id);
 object.delete();
@@ -165,14 +165,14 @@ CmisObject object = session.getObject(id);
 session.delete(new ObjectIdImpl(id));
 ```
 
-* フォルダ(子要素が存在する場合)の削除
+## Delete a folder when it has children or descendants
 ```java
 CmisObject object = session.getObject(id);
 Folder folder = (Folder)object;
 folder.deleteTree(true, null, true);
 ```
 
-* 検索
+## Search
 ```java
 //Build query statement
 MessageFormat format = new MessageFormat("cmis:name LIKE ''%{0}%'' OR CONTAINS(''{0}'')");
@@ -190,4 +190,5 @@ while (itr.hasNext()) {
 }
 ```
 
-statementには CMIS Query の記法をつかいます。記法については[CMIS Query の利用](https://github.com/aegif/NemakiWare/wiki/CMIS-Query-%E3%81%AE%E5%88%A9%E7%94%A8)を参照ください。
+The statement is described following CMIS Query syntax.  
+For CMIS Query syntax, see [this link](https://github.com/aegif/NemakiWare/wiki/CMIS-Query-%E3%81%AE%E5%88%A9%E7%94%A8).  
