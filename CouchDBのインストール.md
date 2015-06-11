@@ -1,4 +1,4 @@
-[English](https://github.com/aegif/NemakiWare/wiki/Install-CouchDB)/日本語
+[English](https://github.com/aegif/NemakiWare/wiki/Install%28CouchDB%29)/日本語
 ***
 
 NemakiWare は [Apache CouchDB](http://couchdb.apache.org/) をバックエンドのデータベースして採用しています。NemakiWareのインストールの前に、CouchDBをインストールしておく必要があります（NemakiWare のインストーラでは CouchDB はインストールされません）
