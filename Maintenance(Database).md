@@ -38,8 +38,10 @@ Initialization data are:
 `<INSTALL_PATH>/setup/couchdb/initial_import/archive_init.dump`  
 # Main database initialization
 `java -cp bjornloka/target/bjornloka.jar jp.aegif.nemaki.bjornloka.Load <host_address> <db_port> <repository_id> bedroom_init.dump true`
+- repository_id is by dafault `bedroom`.
 # Archive database initialization
 `java -cp bjornloka/target/bjornloka.jar jp.aegif.nemaki.bjornloka.Load <host_address> <db_port> <repository_id> archive_init.dump true`
+- repository_id is by default `archive`.
 
 # CouchDB UI
 ## Futon
