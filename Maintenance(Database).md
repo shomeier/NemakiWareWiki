@@ -1,4 +1,4 @@
-English/日本語 
+English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%28%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%29)
 ***
 # Data dump/load tool
 ## Tool
