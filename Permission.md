@@ -1,7 +1,7 @@
 English/日本語 
 ***
 # How it works
-## Principal(user/group), Permission and Action
+## Principal(user/group) -> Permission -> Action
 - Each node(document/folder) has its ACL(Access Control List).
 - ACE(Access Control Entity) maps a principal to some permissions.
 - A permission is mapped to some CMIS action by the repository configuration.
@@ -10,7 +10,7 @@ English/日本語
 ## Inheritance from the parent folder
 - A new node inherits its parent's ACL by default.  
 - You can change the ACL if you have the appropriate permission to do so.  
-- Inheritance can overwrite each ACE, not necessarily switching off the whole ACL of its parent.  
+- Inherited each ACE can be overwritten , not necessarily switching off the whole ACL.  
 
 ## Inheritance from the user group
 - User or group can belong to a group.
