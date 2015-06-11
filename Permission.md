@@ -13,7 +13,7 @@ English/日本語
 - Inherited each ACE can be overwritten , not necessarily switching off the whole ACL.  
 
 ## Inheritance from the group
-- User or group can belong to a group.
+- User or group can belong to groups.
 - If an ACE maps the group to some permissions, it members are also mapped to them.
 
 # Configure permissions
