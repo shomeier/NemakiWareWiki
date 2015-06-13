@@ -1,9 +1,12 @@
 English/日本語
 ***
 # 概要
-ドキュメントやフォルダを API queryObjects メソッドを使って検索する際に引数に、CMIS Query という記法で書かれたクエリを渡します。CMIS Query はこれは SQL-92 をベースにしてしたクエリ言語になっています。使える記法の概要としては、SELECT、FROM、WHERE、ORDER BY になります。JOIN、GROUP BY、HAVING などは使えません。
+- ドキュメントやフォルダを検索するには、CMIS Queryという記法でクエリ文を書いてメソッドに渡します。
+- CMIS QueryはSQL-92をベースにしたもので、CMIS独自の拡張や制約があります。
+- 使える記法には、SELECT、FROM、WHERE、ORDER BYなどがあります。
+- JOIN、GROUP BY、HAVINGなどは使えません。
 
-クエリをUIから試すには [CMIS Workbench](https://github.com/aegif/NemakiWare/wiki/CMIS-Workbench(Simple-client)) の利用が簡単です。CMIS Workbench の Query タブからクエリを実行することが出来ます。
+クエリを自分で書いて挙動を試してみたければ、[CMIS Workbench](https://github.com/aegif/NemakiWare/wiki/CMIS-Workbench(Simple-client))を利用すると簡単です。CMIS Workbench の Query タブからクエリを実行することが出来ます。
 
 # サンプル
 以下に簡単なサンプルを示します。
