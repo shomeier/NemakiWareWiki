@@ -115,7 +115,7 @@ object.updateProperties(properties);
 ## Update file(update directly without checking out)
 ```java
 CmisObject object = session.getObject(id);
-Document document = (Document) object;
+Document doc = (Document) object;
 
 ContentStream contentStream = ... //Get content stream from somewhere
 
