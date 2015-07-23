@@ -1,4 +1,4 @@
-English/[日本語]()
+[English](https://github.com/aegif/NemakiWare/wiki/Configuration%28UI%29:-Property)/日本語
 ***
 
 # プロパティの変更
