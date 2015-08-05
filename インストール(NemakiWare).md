@@ -15,7 +15,7 @@
 
 ## インストーラの実行
 - GUI  
-  実行ファイルをクリックするか、または`java -jar <installer_file>`  
+  `java -Dfile.coding=UTF-8 -jar <installer_file>`  
 - CUI  
   `java -jar <installer_file> -console`  
  
