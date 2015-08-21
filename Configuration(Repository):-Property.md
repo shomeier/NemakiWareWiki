@@ -29,6 +29,20 @@ All the default properties are described here:
 - [nemakiware-property.properties](https://github.com/aegif/NemakiWare/blob/master/core/src/main/webapp/WEB-INF/classes/nemakiware-property.properties)  
   Defines CMIS property's attributes following CMIS specification. Basically you should **NOT** change this.  
 
+# Important properties
+## Preview
+LibreOffice or OpenOffice must be preinstalled.  
+`capability.extended.preview=true`  
+and  
+  
+Linux  
+`jodconverter.officehome=/opt/libreoffice4.4`  
+Mac    
+`jodconverter.officehome=/Applications/LibreOffice.app/Contents`  
+Windows  
+TODO
+
+
 #Referenced setting files
 Some setting files are designated by a property.  
 They are specified by name (not by path) and loaded by the class loader.  
