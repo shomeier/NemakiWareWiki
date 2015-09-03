@@ -4,7 +4,7 @@ English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%
 * Linux/Windows/Mac
 * Java 1.6+
 * CouchDB<br>
-  (You must install by yourself CouchDB)
+  (You must install by yourself CouchDB. [See](https://github.com/aegif/NemakiWare/wiki/Install%28CouchDB%29))
 
 # Installer
 - Installer runs on multi-platform.  
