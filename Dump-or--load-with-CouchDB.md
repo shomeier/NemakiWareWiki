@@ -50,3 +50,7 @@ Of course it works with no arguments, it can also take the following arguments i
 <tr><td>mainFilePath</td><td>Full path of a file to be loaded in the main repository<br/></td></tr>
 <tr><td>archiveFilePath</td><td>Full path of a file to be loaded in the archive repository<br/></td></tr>
 </table>
+
+##Example
+
+`java -cp <path>/bjornloka.jar jp.aegif.nemaki.bjornloka.Load 127.0.0.1 5984 bedroom <path>/bedroom_init.dump true`
