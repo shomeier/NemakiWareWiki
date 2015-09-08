@@ -7,7 +7,11 @@ English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E3%82%A2%E3%82%AF%
 # Access URL
 `localhost:8080` may vary depending on your configuration.
 ## UI
-`http://localhost:8080/ui`
+`http://localhost:8080/ui/repo/<repository_name>/login`
+
+Default installed:
+`http://localhost:8080/ui/repo/bedroom/login`
+`http://localhost:8080/ui/repo/bedroom2/login`
 
 ## CMIS repository
 There is some protocol to connect to the repository.  
