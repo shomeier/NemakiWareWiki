@@ -5,5 +5,5 @@ English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%
 * Run NemakiCore And NemakiUI : execute startup.sh or startup.bat in /apache-tomcat-8.0.26/bin
 * Access http://localhost:8080/ui/repo/bedroom/ . Default user/password is admin/admin
 
-# [Install(CouchDB)](https://github.com/aegif/NemakiWare/wiki/Install%28CouchDB%29)
-# [Install(NemakiWare)](https://github.com/aegif/NemakiWare/wiki/Install%28NemakiWare%29)
+## [Install(CouchDB)](https://github.com/aegif/NemakiWare/wiki/Install%28CouchDB%29)
+## [Install(NemakiWare)](https://github.com/aegif/NemakiWare/wiki/Install%28NemakiWare%29)
