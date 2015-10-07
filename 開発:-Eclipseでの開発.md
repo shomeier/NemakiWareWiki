@@ -20,6 +20,6 @@ Eclipse上のプラグインから起動(たとえば[Run Jetty Run](https://cod
 ```activator run``` (デフォルトではポート9000で起動します)
 
 # デバッグ
-##UIのデバッグ
+##UI
 起動時に```activator -jvm-debug 9999 run```  
 EclipseのRemote Java Applicationでポート9999に接続
