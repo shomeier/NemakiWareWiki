@@ -1,4 +1,4 @@
-[English]()/日本語 
+[English](https://github.com/aegif/NemakiWare/wiki/Development:-Development-in-Eclipse)/日本語 
 ***
 # プロジェクトのセットアップ
 セットアップ後、Eclipseで既存プロジェクトとしてインポートしてください。  
