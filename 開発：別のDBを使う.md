@@ -11,5 +11,5 @@ NemakiWare のバックエンド DB を別のものに差し替えるには以�
 _`context.backend` in property files_: Overwrite it by the new Spring context file you defined.  
 _Your new Spring context file_: Define the classes as couchContext.xml. 
 
-* Methods in you DAO should return null(or empty list) when they have any error or no result.  
-In the higher layer, the result is checked by CollectionUtils.isEmpty.
+* 注意
+エラーもしくは結果がない場合、 DAO の戻り値は null か空の配列にしてください。上位レイヤーにおいて CollectionUtils.isEmpty メソッドにより結果がチェックされます。 
