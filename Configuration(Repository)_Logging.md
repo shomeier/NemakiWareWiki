@@ -1,7 +1,7 @@
 English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A%28%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%29:-%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3)
 ***
 # Logging configration
-After 2.4 onward, default logger outputs JSON format logs, especially with some CMIS specific tweaks.  
+After NemakiWare 2.4 onward, default logger outputs JSON format logs, especially with some CMIS specific tweaks.  
 Configuration file is [here](https://github.com/aegif/NemakiWare/blob/topic_log/core/src/main/webapp/WEB-INF/classes/log-json-config.json).  
 
 # How to
@@ -26,11 +26,14 @@ And you will find some CMIS method names are not on the file!
 - **logTime**: _boolean_ process time (including logging itself)  
 
 ## input
-- **<method argument name>**: 
-  argument name is defined with jp.aegif.nemaki.util.spring.aspect.log.LogParam annotation.
+- **\<method argument name\>**:  
+argument name is defined with jp.aegif.nemaki.util.spring.aspect.log.LogParam annotation.  
   For CMIS service methods, the names are based on the CMIS specification.
   - **type**: _enum_('simple' or 'full') At present only 'simple' is supported. 'full' outputs toString().
-  - **properties**:  {<CMIS Property ID>: _boolean_, ...} format
+  - **properties**:  {\<CMIS Property ID\>": _boolean_, ...} format
   - **list**:  
     - **num**: _boolean_  display the number of list items  
-    - **item**: _boolean_ display the items itself
+    - **item**: _boolean_ display the items itself  
+
+## output
+same as an _input_ argument configuration  
