@@ -6,7 +6,7 @@ Configuration file is [here](https://github.com/aegif/NemakiWare/blob/topic_log/
 
 # How to
 - The file has the two parts: _global_ and _method_.  
-- _global_ works as the default value and its configuration are inherited to each method and fill the missing field.  
+- _global_ works as the default value and its configurations are inherited to each method and fill the missing field.  
 - Even when an individual method configuration  does not exist, _global_ configuration will be used so that in almost all cases method specific configuration will not be required.  
 For example,  
 ```
