@@ -20,10 +20,10 @@ has neither _setting_ nor _output_ field, but they are using _global_ default va
 And you will find some CMIS method names are not on the file!  
 
 ## setting
-- **uuid**: _boolean_ log record's UUID  
-- **name**: _enum_('simple' or 'full') method name.  
-- **time**: _boolean_ process time  
-- **logTime**: _boolean_ process time (including logging itself)  
+- **uuid**: _boolean_ display log record's UUID  
+- **name**: _enum_('simple' or 'full') how to display method name.  
+- **time**: _boolean_ display process time  
+- **logTime**: _boolean_ display process time (including logging itself)  
 
 ## input
 - **\<method argument name\>**:  
