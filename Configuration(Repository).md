@@ -7,3 +7,5 @@ English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E7%92%B0%E5%A2%83%
 # [Permission](https://github.com/aegif/NemakiWare/wiki/Permission)
 
 # [Authentication](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%29_-Authentication)
+
+# [Logging](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%29_-Property)
