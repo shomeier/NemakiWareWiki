@@ -22,6 +22,9 @@ Test granularity can be modified via:
 ## Report
 TWD
 
+## Maven
+TWD
+
 ## Note
 - CMIS TCK, as of version 0.13.0, always fails in VersioningSmokeTest.  
   See [CMIS-935](https://issues.apache.org/jira/browse/CMIS-935).  
