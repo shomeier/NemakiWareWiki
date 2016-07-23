@@ -19,6 +19,9 @@ Test granularity can be modified via:
 - ```src/test/resources.cmis-tck-filters.properties```
 - running directly the test or test group you wanted to run, which is along with @Test annotation.  
 
+## Report
+TWD
+
 ## Note
 - CMIS TCK, as of version 0.13.0, always fails in VersioningSmokeTest.  
   See [CMIS-935](https://issues.apache.org/jira/browse/CMIS-935).  
