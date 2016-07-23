@@ -31,6 +31,8 @@ See [here](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%2
 
 ## Performance test
 
+##
+
 # Unit tests
 Now lack of unit tests and the test-driven development are serious issue.  
 Baisically CMIS functions and performance can be ensured or measured those above tests, it is urgent to write down unit tests for future enhancement and refactoring.  
