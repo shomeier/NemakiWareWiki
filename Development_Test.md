@@ -20,7 +20,7 @@ Test granularity can be modified via:
 - running directly the test or test group you wanted to run, which is along with @Test annotation.  
 
 ## Note
-- CMIS TCK, as of version 0.13.0, always fail in VersioningSmokeTest.  
+- CMIS TCK, as of version 0.13.0, always fails in VersioningSmokeTest.  
   See [CMIS-935](https://issues.apache.org/jira/browse/CMIS-935).  
   It might be useful to skip VersioningSmokeTest if you are using version 0.13.0, though this bug is already fixed in 0.14.0.  
 - Query tests is by default skipped in NemakiWare because the cron intervals and speed of Solr indexing does not catch up with the progress of the test.  
