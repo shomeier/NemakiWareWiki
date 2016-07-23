@@ -25,7 +25,7 @@ Test granularity can be modified via:
   It might be useful to skip VersioningSmokeTest if you are using version 0.13.0, though this bug is already fixed in 0.14.0.  
 - Query tests is by default skipped in NemakiWare because the cron intervals and speed of Solr indexing does not catch up with the progress of the test.  
   If you want to test the CMIS query compliance, overwrite ```solr.indexing.force``` to _true_ in ```nemakiware.properties```.  
-See [here](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%29_-Property)
+See [here](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%29_-Property).
 
 # Original tests via CMIS protocol
 
