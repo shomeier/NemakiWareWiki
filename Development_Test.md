@@ -8,6 +8,7 @@ This library is not written in the format of JUnit and orgranizes tests from CMI
 ## How To
 - First, start NemakiWare ```core``` application.  
 - Then run ```jp.aegif.nemaki.test.tck.tests.AllTests``` as JUnit Test in Eclipse or something.  
+- Or ```mvn test -P product``` in ```core``` directory.  
 
 ## Setting
 - ```src/test/resources.cmis-tck-parameters.properties```
