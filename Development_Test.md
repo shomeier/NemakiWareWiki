@@ -8,7 +8,8 @@ This library is not written in the format of JUnit and orgranizes tests from CMI
 ## How To
 - First, start NemakiWare ```core``` application.  
 - Then run ```jp.aegif.nemaki.test.tck.tests.AllTests``` as JUnit Test in Eclipse or something.  
-- Or ```mvn test -P product``` in ```core``` directory.  
+- Or ```mvn verify -P product``` in ```core``` directory.  
+  Make sure that port 8080 (default) is open, because ```mvn verify``` start/shutdown the server automatically.  
 
 ## Setting
 - ```src/test/resources.cmis-tck-parameters.properties```
@@ -23,9 +24,6 @@ Test granularity can be modified via:
 ## Report
 TWD
 
-## Maven
-TWD
-
 ## Note
 - CMIS TCK, as of version 0.13.0, always fails in VersioningSmokeTest.  
   See [CMIS-935](https://issues.apache.org/jira/browse/CMIS-935).  
@@ -35,12 +33,10 @@ TWD
 See [here](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%29_-Property).
 
 # Original tests via CMIS protocol
-
-## Performance test
+```jp.aegif.nemaki.test.nemaki``` package.  
+These tests are written as JUnit tests and presuppose the server is running, as much as TCK.  
 
 ## JMeter
-
-##
 
 # Unit tests
 Now lack of unit tests and the test-driven development are serious issue.  
