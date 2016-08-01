@@ -6,7 +6,9 @@
 ```mvn eclipse:eclipse``` を各プロジェクトフォルダで実行(/core, /solr)
 
 ### UI
-```activator eclipse``` をプロジェクトフォルダで実行(/ui)
+```mvn package; mvn install:install-file -Dfile=nemakiware-common-<Version>.jar -DgroupId=jp.aegif.nemakiware -DartifactId=nemakiware-common -Dversion=<Version> -Dpackaging=jar``` を/commonフォルダで実行し、ローカルリポジトリへインストール
+
+その後 ```activator eclipse``` をプロジェクトフォルダで実行(/ui)
 
 # アプリケーションサーバ
 ## Core/Solr
