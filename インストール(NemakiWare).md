@@ -84,6 +84,10 @@
 `shared.loader=${catalina.base}/shared/classes`
 に書き換えます。
 
+##
+
+必要であれば
+
 ## 確認
 `TOMCAT_HOME/bin/startup.sh`(Windowsであればstartup.bat）をキックして起動させます。
 `http://localhost:8080/ui/repo/bedroom/`
