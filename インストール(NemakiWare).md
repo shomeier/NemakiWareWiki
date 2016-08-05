@@ -6,7 +6,8 @@
 - CouchDB  
   (CouchDBは自分でインストールする必要があります [こちらを参照](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%28CouchDB%29))
 
-# インストーラ
+
+# インストーラによるインストール
 - インストーラは全プラットフォームで動作します。
 - インストーラは[IzPack](http://izpack.org/)を利用して作成されています。
 
@@ -25,7 +26,35 @@
     - CouchDBだけ再び初期化できます。
     - WARファイルやTomcatサーバだけアップデートできます。
 
-# 起動
+## 起動
 - NemakiWareを起動する前に、CouchDBが起動済みが確認してください。
 - 確認できたら、次のコマンドでTomcatサーバを起動するだけです。  
   `sh <TOMCAT_PATH>/bin/startup.sh`
+
+# インストーラ同梱のTomcatを使わず、任意の場所に配置する
+任意の Tomcat に配置する方法を記載します。インストーラでいったんインストールした後、必要なファイルを移動します。インストーラで入れた NemakiWare のホームを INSTALL_HOME 、動かしたい Tomcat の Home ディレクトリを TOMCAT_HOME と記載します
+
+## warファイルの移動
+
+`INSTALL_HOME\apache-tomcat-8.0.28\webapps`
+以下にある
+* Ui.war
+* core.war
+* solr.war
+を、
+`TOMCAT_HOME\webapps`
+に移動
+
+## shared/classsを移動
+`INSTALL_HOME\apache-tomcat-8.0.28\shared`
+を
+`TOMCAT_HOME\webapps\shared`
+に移動
+
+## 設定
+`$TOMCAT_HOME/catalina.properties`
+内の
+`shared.loader=`
+を
+`shared.loader=${catalina.base}/shared/classes`
+に書き換える
