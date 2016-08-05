@@ -84,9 +84,13 @@
 `shared.loader=${catalina.base}/shared/classes`
 に書き換えます。
 
-##
+## その他
 
 必要であれば
+`INSTALL_HOME\apache-tomcat-8.0.28\bin\setenv.sh`(Windowsであればsetenv.bat）
+も
+`TOMCAT_HOME/bin/`以下にコピーしておきます。Java のメモリサイズが書かれています。
+
 
 ## 確認
 `TOMCAT_HOME/bin/startup.sh`(Windowsであればstartup.bat）をキックして起動させます。
