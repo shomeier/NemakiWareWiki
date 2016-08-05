@@ -38,7 +38,7 @@
 
 `INSTALL_HOME\apache-tomcat-8.0.28\webapps`
 以下にある
-* Ui.war
+* ui.war
 * core.war
 * solr.war
 を、
