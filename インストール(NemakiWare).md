@@ -34,7 +34,7 @@
 # インストーラ同梱のTomcatを使わず、任意の場所に配置する
 任意の Tomcat に配置する方法を記載します。インストーラでいったんインストールした後、必要なファイルを移動します。インストーラで入れた NemakiWare のホームを INSTALL_HOME 、動かしたい Tomcat の Home ディレクトリを TOMCAT_HOME と記載します
 
-## warファイルの移動
+## warファイルのコピー
 
 `INSTALL_HOME\apache-tomcat-8.0.28\webapps`
 以下にある
@@ -43,13 +43,37 @@
 * solr.war
 を、
 `TOMCAT_HOME\webapps`
-に移動
+ディレクトリ以下にコピー
 
-## shared/classsを移動
+## shared/classsをコピー
 `INSTALL_HOME\apache-tomcat-8.0.28\shared`
+ディレクトリを
+`TOMCAT_HOME\`
+以下にコピー
+
+## conf\Catalinaをコピーして設定
+`INSTALL_HOME\apache-tomcat-8.0.28\conf\Catalina`
+ディレクトリを
+`TOMCAT_HOME\conf`
+以下にコピーし、
+
+`TOMCAT_HOME\conf\Catalina\localhost\solr.xml`
+内の
+```
+<?xml version="1.0" encoding="utf-8"?>
+<Context docBase="＜INSTALL_HOME＞/apache-tomcat-8.0.28/webapps/solr" crossContext="true">
+  <Environment name="solr/home" type="java.lang.String" value="＜INSTALL_HOME＞/solr" override="true"/>
+</Context>
+```
 を
-`TOMCAT_HOME\webapps\shared`
-に移動
+```
+<?xml version="1.0" encoding="utf-8"?>
+<Context docBase="＜TOMCAT_HOME＞/webapps/solr" crossContext="true">
+  <Environment name="solr/home" type="java.lang.String" value="＜INSTALL_HOME＞/solr" override="true"/>
+</Context>
+```
+に変更する。INSTALL_HOME/SolrはTomcatとは関係ない場所に置くので、ここはTomcatを別にしてもそのままにしておく
+
 
 ## 設定
 `$TOMCAT_HOME/catalina.properties`
@@ -58,3 +82,5 @@
 を
 `shared.loader=${catalina.base}/shared/classes`
 に書き換える
+
+
