@@ -36,22 +36,22 @@
 
 ## warファイルのコピー
 
-`INSTALL_HOME\apache-tomcat-8.0.28\webapps`
+`INSTALL_HOME/apache-tomcat-8.0.28\webapps`
 以下にある
 
 * ui.war
 * core.war
 * solr.war
 
-を、 `TOMCAT_HOME\webapps` ディレクトリ以下にコピーします。
+を、 `TOMCAT_HOME/webapps` ディレクトリ以下にコピーします。
 
 ## shared/classs をコピー
-`INSTALL_HOME\apache-tomcat-8.0.28\shared` ディレクトリを `TOMCAT_HOME\` 以下にコピーします。
+`INSTALL_HOME/apache-tomcat-8.0.28/shared` ディレクトリを `TOMCAT_HOME/` 以下にコピーします。
 
-## conf\Catalina をコピーして設定
-`INSTALL_HOME\apache-tomcat-8.0.28\conf\Catalina` ディレクトリを `TOMCAT_HOME\conf` 以下にコピーし、
+## conf/Catalina をコピーして設定
+`INSTALL_HOME/apache-tomcat-8.0.28/conf\Catalina` ディレクトリを `TOMCAT_HOME/conf` 以下にコピーし、
 
-`TOMCAT_HOME\conf\Catalina\localhost\solr.xml`
+`TOMCAT_HOME/conf/Catalina/localhost/solr.xml`
 
 をエディタで開き、
 
@@ -89,7 +89,7 @@
 
 必要であれば
 
-`INSTALL_HOME\apache-tomcat-8.0.28\bin\setenv.sh` (Windowsであればsetenv.bat）
+`INSTALL_HOME/apache-tomcat-8.0.28/bin/setenv.sh` (Windowsであればsetenv.bat）
 
 も
 
