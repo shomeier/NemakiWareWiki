@@ -49,7 +49,7 @@
 `INSTALL_HOME/apache-tomcat-8.0.28/shared` ディレクトリを `TOMCAT_HOME/` 以下にコピーします。
 
 ## conf/Catalina をコピーして設定
-`INSTALL_HOME/apache-tomcat-8.0.28/conf\Catalina` ディレクトリを `TOMCAT_HOME/conf` 以下にコピーし、
+`INSTALL_HOME/apache-tomcat-8.0.28/conf/Catalina` ディレクトリを `TOMCAT_HOME/conf` 以下にコピーし、
 
 `TOMCAT_HOME/conf/Catalina/localhost/solr.xml`
 
