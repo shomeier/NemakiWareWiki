@@ -32,7 +32,7 @@
   `sh <TOMCAT_PATH>/bin/startup.sh`
 
 # インストーラ同梱のTomcatを使わず、任意の場所に配置する
-任意の Tomcat に配置する方法を記載します。インストーラでいったんインストールした後、必要なファイルを移動します。インストーラで入れた NemakiWare のホームを INSTALL_HOME 、動かしたい Tomcat の Home ディレクトリを TOMCAT_HOME と記載します。
+任意の Tomcat に配置する方法を記載します。インストーラでいったんインストールした後、必要なファイルを移動するのが楽です。インストーラで入れた NemakiWare のホームを INSTALL_HOME 、動かしたい Tomcat の Home ディレクトリを TOMCAT_HOME と記載します。
 
 ## warファイルのコピー
 
@@ -41,23 +41,33 @@
 * ui.war
 * core.war
 * solr.war
+
 を、
 `TOMCAT_HOME\webapps`
+
 ディレクトリ以下にコピーします。
 
 ## shared/classs をコピー
 `INSTALL_HOME\apache-tomcat-8.0.28\shared`
+
 ディレクトリを
+
 `TOMCAT_HOME\`
+
 以下にコピーします。
 
 ## conf\Catalina をコピーして設定
+
 `INSTALL_HOME\apache-tomcat-8.0.28\conf\Catalina`
+
 ディレクトリを
+
 `TOMCAT_HOME\conf`
+
 以下にコピーし、
 
 `TOMCAT_HOME\conf\Catalina\localhost\solr.xml`
+
 内の
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -73,30 +83,46 @@
 </Context>
 ```
 に変更します。
+
 なお、INSTALL_HOME/Solr は Webアプリケーションではなく、Tomcat とは関係ありませんので、ここは同梱版でない Tomcat に配置するにしても、そのままにしておいてもよいです。必要なら /opt/solr などに移動し、この solr.xml の Environment name="solr/home" の value 値を新しい場所に書き換えることができます。
 
 
 ## 設定
 `$TOMCAT_HOME/catalina.properties`
+
 内の
+
 `shared.loader=`
+
 を
+
 `shared.loader=${catalina.base}/shared/classes`
+
 に書き換えます。
 
 ## その他
 
 必要であれば
-`INSTALL_HOME\apache-tomcat-8.0.28\bin\setenv.sh`(Windowsであればsetenv.bat）
-も
-`TOMCAT_HOME/bin/`以下にコピーしておきます。Java のメモリサイズが書かれています。
 
+`INSTALL_HOME\apache-tomcat-8.0.28\bin\setenv.sh` (Windowsであればsetenv.bat）
+
+も
+
+`TOMCAT_HOME/bin/`
+
+以下にコピーしておきます。Tomcat 起動時の Java のメモリサイズなどが書かれています。
 
 ## 確認
-`TOMCAT_HOME/bin/startup.sh`(Windowsであればstartup.bat）をキックして起動させます。
+`TOMCAT_HOME/bin/startup.sh`(Windowsであればstartup.bat）
+
+をキックして起動させます。
+
 `http://localhost:8080/ui/repo/bedroom/`
+
 の表示を確認します、ログイン画面が表示されれば ui.war が動いていることが確認できます。
+
 admin ユーザでログインします。ログインできれば、core.war が動いていることが確認できます。
+
 適当なファイルを置き、ファイル名で検索し、そのファイルが検索できることを確認します。検索できれば solr.war が動いていることが確認できます。
 
 
