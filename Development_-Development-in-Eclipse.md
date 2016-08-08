@@ -1,4 +1,4 @@
-English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E9%96%8B%E7%99%BA:-Eclipse%E3%81%A7%E3%81%AE%E9%96%8B%E7%99%BA) 
+English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E9%96%8B%E7%99%BA_-Eclipse%E3%81%A7%E3%81%AE%E9%96%8B%E7%99%BA) 
 ***
 # Project setup
 Once the projects' setup is finished, please import them as existing projects into Eclipse.  
