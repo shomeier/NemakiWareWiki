@@ -1,2 +1,2 @@
 ----
-NemakiWare
+NemakiWare Wiki
