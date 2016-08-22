@@ -29,6 +29,11 @@ All the default properties are described here:
 - [nemakiware-property.properties](https://github.com/aegif/NemakiWare/blob/master/core/src/main/webapp/WEB-INF/classes/nemakiware-property.properties)  
   Defines CMIS property's attributes following CMIS specification. Basically you should **NOT** change this.  
 
+# Dynamic configuration
+The above list of property fils define **static** properties.  
+Almost all of these can be overwritten by CouchDB configuration **on the fly**, except for CouchDB settings and some repository info metadata.  
+Dynamic property within CouchDB takes precedence over static properties.  
+
 # Important properties
 ## Preview
 LibreOffice or OpenOffice must be preinstalled.  
