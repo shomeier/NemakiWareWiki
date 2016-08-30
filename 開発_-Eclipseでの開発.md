@@ -2,10 +2,14 @@
 ***
 # プロジェクトのセットアップ
 セットアップ後、Eclipseで既存プロジェクトとしてインポートしてください。  
+
+## Common
+```mvn install``` を/commonフォルダで実行  
+
 ## Core/Solr
 ```mvn eclipse:eclipse``` をルートフォルダで実行（複数のサブプロジェクトがありますが、すべて実行されます）
 
-### UI
+## UI
 ```mvn package; mvn install:install-file -Dfile=nemakiware-common-<Version>.jar -DgroupId=jp.aegif.nemakiware -DartifactId=nemakiware-common -Dversion=<Version> -Dpackaging=jar``` を/commonフォルダで実行し、ローカルリポジトリへインストール
 
 その後 ```activator eclipse``` をプロジェクトフォルダで実行(/ui)
