@@ -12,3 +12,12 @@ For the moment User/Group REST APIs works as before. These APIs output User/Grou
   You MUST set/change it by REST API.  
 - TWD: Get list of users/groups  
 - TWD: Get user/group by userId/groupId  
+
+## Change password  
+REST API  
+```PUT http://<host>:<port>/rest/repo/<repositoryId>/user/changePassword```  
+FormData  
+```
+oldPassword: xxxxx
+newPassword: yyyyy
+```
