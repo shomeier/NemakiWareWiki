@@ -17,12 +17,13 @@ This library is not written in the format of JUnit and orgranizes tests from CMI
 - ```src/test/resources.cmis-tck-filters.properties```
   - specifies which test or test group to execute in AllTests running by boolean value.
 
-Test granularity can be modified via:
+Which tests are going to be done can be controlled with:
 - ```src/test/resources.cmis-tck-filters.properties```
-- running directly the test or test group you wanted to run, which is along with @Test annotation.  
+- or running directly the test / test group method with @Test annotation in your IDE editor  
 
 ## Report
-TWD
+```mvn verify -P product``` execute the tests in maven-surefire-plugin.  
+A test report is created under the maven-surefire-plugin default report folder.   
 
 ## Note
 - CMIS TCK, as of version 0.13.0, always fails in VersioningSmokeTest.  
@@ -33,11 +34,12 @@ TWD
 See [here](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%29_-Property).
 
 # Original tests via CMIS protocol
-```jp.aegif.nemaki.test.nemaki``` package.  
+```jp.aegif.nemaki.cmis.original``` package.  
 These tests are written as JUnit tests and presuppose the server is running, as much as TCK.  
 
 ## JMeter
-
-# Unit tests
-Now lack of unit tests and the test-driven development are serious issue.  
-Baisically CMIS functions and performance can be ensured or measured those above tests, it is urgent to write down unit tests for future enhancement and refactoring.  
+## How To
+- Download JMeter: http://jmeter.apache.org/
+- ```sh path/to/apache-jmeter/bin/jmeter.sh```  
+- In the menu bar,  _File_ > _Open_ to load a jmx file.  
+- Select the test to execute in the left column and click the start button.  
