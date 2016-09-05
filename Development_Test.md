@@ -23,7 +23,7 @@ Which tests are going to be done can be controlled with:
 
 ## Report
 ```mvn verify -P product``` execute the tests in maven-surefire-plugin.  
-A test report is created under the maven-surefire-plugin default report folder.   
+A test report is created under the maven-surefire-plugin default report folder ```target/surefire-reports```.   
 
 ## Note
 - CMIS TCK, as of version 0.13.0, always fails in VersioningSmokeTest.  
