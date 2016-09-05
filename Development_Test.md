@@ -39,6 +39,11 @@ See [here](https://github.com/aegif/NemakiWare/wiki/Configuration%28Repository%2
 # Original tests via CMIS protocol
 ```jp.aegif.nemaki.cmis.original``` package.  
 These tests are written as JUnit tests and presuppose the server is running, as much as TCK.  
+They are not executed in the usual maven process.  
+The purpose is check the behavior of multi-threading, performance etc.  
+
+## MultiThreadTest  
+```cmis-original-thread.properties``` specifies the number of objects to be created (= the number of threads of the following operations)  
 
 ## JMeter
 ## How To
