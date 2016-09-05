@@ -1,3 +1,6 @@
+English/[日本語](https://github.com/aegif/NemakiWare/wiki/開発(テスト))
+***
+
 # OpenCMIS Workbench TCK(Test Compatibility Kit)
 OpenCMIS Workbench is CMIS desktop client for developers based on OpenCMIS(Java).  
 It provides navigation system, as well as CMIS compliance test tool kit, called TCK(Test Compatibility Kit).  
