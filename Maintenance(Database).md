@@ -52,6 +52,9 @@ java -jar bjornloka.jar
 Import file(main):]： initial_import/bedroom_init.dump
 Import file(archive):]： initial_import/archive_init.dump
 ```
+Inline example: `java -jar bjornloka.jar http://127.0.0.1:5984 bedroom bedroom_closet initial_import/bedroom_init.dump initial_import/archive_init.dump`
+
+Then restart NemakiWare.
 
 # CouchDB UI
 ## Futon
