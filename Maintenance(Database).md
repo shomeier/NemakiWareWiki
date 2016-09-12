@@ -43,6 +43,16 @@ Initialization data are:
 `java -cp bjornloka/target/bjornloka.jar jp.aegif.nemaki.bjornloka.Load <host_address> <db_port> <repository_id> archive_init.dump true`
 - repository_id is by default `archive`.
 
+# Reinitializing the database
+If you ever need to remove all data and come back to the state that existed after installing NemakiWare for the first time, do the following:
+```
+cd setup/couchdb
+java -jar bjornloka.jar
+[Answer the questions about your server, default values are goo for a default install]
+Import file(main):]： initial_import/bedroom_init.dump
+Import file(archive):]： initial_import/archive_init.dump
+```
+
 # CouchDB UI
 ## Futon
 `http://localhost:5984/_utils/` 
