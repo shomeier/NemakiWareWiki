@@ -48,7 +48,7 @@ If you ever need to remove all data and come back to the state that existed afte
 ```
 cd setup/couchdb
 java -jar bjornloka.jar
-[Answer the questions about your server, default values are goo for a default install]
+[Answer the questions about your server, default values are good for a default install]
 Import file(main):]： initial_import/bedroom_init.dump
 Import file(archive):]： initial_import/archive_init.dump
 ```
