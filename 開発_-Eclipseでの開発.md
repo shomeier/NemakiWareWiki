@@ -7,7 +7,7 @@
 ```mvn install``` を/commonフォルダで実行  
 
 ## Core/Solr
-```mvn eclipse:eclipse``` をルートフォルダで実行（複数のサブプロジェクトがありますが、すべて実行されます）
+```mvn eclipse:eclipse``` を/common、/core、/solr、/actionルートフォルダで実行
 
 ## UI
 ```mvn package; mvn install:install-file -Dfile=nemakiware-common-<Version>.jar -DgroupId=jp.aegif.nemakiware -DartifactId=nemakiware-common -Dversion=<Version> -Dpackaging=jar``` を/commonフォルダで実行し、ローカルリポジトリへインストール
