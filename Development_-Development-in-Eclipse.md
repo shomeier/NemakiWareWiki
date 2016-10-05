@@ -3,11 +3,9 @@ English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E9%96%8B%E7%99%BA_
 # Project setup
 Once the projects' setup is finished, please import them as existing projects into Eclipse.  
 
-## Common
-Execute ```mvn install``` in /common folder  
-
-## Core/Solr
-Execute ```mvn eclipse:eclipse``` in the following folders: /common /core /solr /action
+## CMIS Core server
+1. Execute ```mvn install``` in the /action and /common folders.
+2. Run ```mvn eclipse:eclipse``` in the root folder.
 
 ## UI
 Execute ```activator eclipse``` in the folder /ui
