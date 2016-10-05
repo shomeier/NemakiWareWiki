@@ -4,7 +4,8 @@
 セットアップ後、Eclipseで既存プロジェクトとしてインポートしてください。  
 
 ## CMIS Core server
-```mvn install``` を /action および /commonフォルダで実行したのち、```mvn eclipse:eclipse``` をルートフォルダで実行（　/common、/core、/solr、/action のそれぞれのルートフォルダで実行したことと同じになります）
+1. ```mvn install``` を /action および /commonフォルダで実行
+2. ```mvn eclipse:eclipse``` をルートフォルダで実行（このコマンドは　/common、/core、/solr、/action のそれぞれのルートフォルダで実行してもよい）
 
 ## UI Web Server
 ```mvn package; mvn install:install-file -Dfile=nemakiware-common-<Version>.jar -DgroupId=jp.aegif.nemakiware -DartifactId=nemakiware-common -Dversion=<Version> -Dpackaging=jar``` を/commonフォルダで実行し、ローカルリポジトリへインストール
