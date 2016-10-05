@@ -7,10 +7,10 @@ Once the projects' setup is finished, please import them as existing projects in
 Execute ```mvn install``` in /common folder  
 
 ## Core/Solr
-Execute ```mvn eclipse:eclipse``` in each project folder(/core, /solr)
+Execute ```mvn eclipse:eclipse``` in the following folders: /common /core /solr /action
 
 ## UI
-Execute ```activator eclipse``` in the project folder(/ui)
+Execute ```activator eclipse``` in the folder /ui
 
 # Application Server
 ## Core/Solr
