@@ -7,7 +7,7 @@ Once the projects' setup is finished, please import them as existing projects in
 1. Execute ```mvn install``` in the /action and /common folders.
 2. Run ```mvn eclipse:eclipse``` in the root folder.
 
-## UI
+## UI web server
 Execute ```activator eclipse``` in the folder /ui
 
 # Application Server
