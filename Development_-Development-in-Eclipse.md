@@ -8,8 +8,8 @@ Once the projects' setup is finished, please import them as existing projects in
 2. Run ```mvn eclipse:eclipse``` in the root folder.
 
 ## UI
-1. Execute ```mvn package; mvn install:install-file -Dfile=nemakiware-common-<Version>.jar -DgroupId=jp.aegif.nemakiware -DartifactId=nemakiware-common -Dversion=<Version> -Dpackaging=jar``` in the /common folder.
-2. Execute ```activator eclipse``` in the folder /ui
+Install Activator from https://www.playframework.com/download
+Execute ```activator eclipse``` in the folder /ui
 
 ## Eclipse
 1. Launch Eclipse
