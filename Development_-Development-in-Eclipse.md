@@ -8,8 +8,8 @@ Once the projects' setup is finished, please import them as existing projects in
 2. Run ```mvn eclipse:eclipse``` in the root folder.
 
 ## UI
-Install Activator from https://www.playframework.com/download
-Execute ```activator eclipse``` in the folder /ui
+1. Install Activator from https://www.playframework.com/download
+2. Execute ```activator eclipse``` in the folder /ui
 
 ## Eclipse
 1. Launch Eclipse
