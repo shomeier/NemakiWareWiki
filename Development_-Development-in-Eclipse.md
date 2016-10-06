@@ -7,8 +7,14 @@ Once the projects' setup is finished, please import them as existing projects in
 1. Execute ```mvn install``` in the /action and /common folders.
 2. Run ```mvn eclipse:eclipse``` in the root folder.
 
-## UI web server
-Execute ```activator eclipse``` in the folder /ui
+## UI
+1. Execute ```mvn package; mvn install:install-file -Dfile=nemakiware-common-<Version>.jar -DgroupId=jp.aegif.nemakiware -DartifactId=nemakiware-common -Dversion=<Version> -Dpackaging=jar``` in the /common folder.
+2. Execute ```activator eclipse``` in the folder /ui
+
+## Eclipse
+1. Launch Eclipse
+2. Import the projects core, nemaki-action, nemaki-common, ui from the file system.
+3. Right-click the core project, select "Properties", "Project Facets", and "Convert to faceted form"
 
 # Application Server
 ## Core/Solr
