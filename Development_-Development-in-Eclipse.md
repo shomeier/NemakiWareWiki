@@ -19,8 +19,7 @@ Once the projects' setup is finished, please import them as existing projects in
 # Application Server
 ## Core/Solr
 They can be run on Jetty by default.  
-```mvn jetty:run```  or  
-Run from a plugin on Eclipse(ex. [Run Jetty Run](https://code.google.com/p/run-jetty-run/)).  
+Either run `mvn jetty:run` in the `core` folder, or run from an Eclipse plugin such as [Run Jetty Run](https://code.google.com/p/run-jetty-run/).
 
 By default, they are running on port 8080(core), 8983(solr).  
 
