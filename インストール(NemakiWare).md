@@ -2,9 +2,9 @@
 ***
 # 必要環境
 - Linux/Windows/Mac
-- Java 1.7+ (1.7推奨）
+- Java 1.7+ (NemakiWare Version 2.4 以降は Java 8+ が必須）
 - CouchDB  
-  (CouchDBは自分でインストールする必要があります [こちらを参照](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%28CouchDB%29))
+  (CouchDBはあらかじめインストールしておく必要があります [こちらを参照](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%28CouchDB%29))
 
 
 # インストーラによるインストール
