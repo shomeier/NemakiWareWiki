@@ -2,7 +2,7 @@ English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%
 ***
 # Prerequisites
 * Linux/Windows/Mac
-* Java 1.7+
+* Java 1.7+ ( Nemakiware 2.4 or later require Java 8+）
 * CouchDB<br>
   (You must install by yourself CouchDB. [See](Install(CouchDB)))
 
