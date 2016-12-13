@@ -59,7 +59,7 @@
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<Context docBase="＜INSTALL_HOME＞/apache-tomcat-8.0.28/webapps/solr" crossContext="true">
+<Context docBase=**"＜INSTALL_HOME＞/apache-tomcat-8.0.28/webapps/solr**" crossContext="true">
   <Environment name="solr/home" type="java.lang.String" value="＜INSTALL_HOME＞/solr" override="true"/>
 </Context>
 ```
