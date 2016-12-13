@@ -38,7 +38,7 @@
 
 ## warファイルのコピー
 
-`INSTALL_HOME/apache-tomcat-8.0.28\webapps`
+`INSTALL_HOME/apache-tomcat-x.x.x\webapps`
 以下にある
 
 * ui.war
@@ -48,10 +48,10 @@
 を、 `TOMCAT_HOME/webapps` ディレクトリ以下にコピーします。
 
 ## shared/classs をコピー
-`INSTALL_HOME/apache-tomcat-8.0.28/shared` ディレクトリを `TOMCAT_HOME/` 以下にコピーします。
+`INSTALL_HOME/apache-tomcat-x.x.x/shared` ディレクトリを `TOMCAT_HOME/` 以下にコピーします。
 
 ## conf/Catalina をコピーして設定
-`INSTALL_HOME/apache-tomcat-8.0.28/conf/Catalina` ディレクトリを `TOMCAT_HOME/conf` 以下にコピーし、
+`INSTALL_HOME/apache-tomcat-x.x.x/conf/Catalina` ディレクトリを `TOMCAT_HOME/conf` 以下にコピーし、
 
 `TOMCAT_HOME/conf/Catalina/localhost/solr.xml`
 
@@ -59,15 +59,15 @@
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<Context docBase=**"＜INSTALL_HOME＞/apache-tomcat-8.0.28/webapps/solr**" crossContext="true">
-  <Environment name="solr/home" type="java.lang.String" value="＜INSTALL_HOME＞/solr" override="true"/>
+<Context docBase="{INSTALL_HOME}/apache-tomcat-x.x.x/webapps/solr" crossContext="true">
+  <Environment name="solr/home" type="java.lang.String" value="{INSTALL_HOME}/solr" override="true"/>
 </Context>
 ```
 を
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<Context docBase="＜TOMCAT_HOME＞/webapps/solr" crossContext="true">
-  <Environment name="solr/home" type="java.lang.String" value="＜INSTALL_HOME＞/solr" override="true"/>
+<Context docBase="{TOMCAT_HOME}/webapps/solr" crossContext="true">
+  <Environment name="solr/home" type="java.lang.String" value="{INSTALL_HOME}/solr" override="true"/>
 </Context>
 ```
 に変更します（docBase属性）
@@ -91,7 +91,7 @@
 
 必要であれば
 
-`INSTALL_HOME/apache-tomcat-8.0.28/bin/setenv.sh` (Windowsであればsetenv.bat）
+`INSTALL_HOME/apache-tomcat-x.x.x/bin/setenv.sh` (Windowsであればsetenv.bat）
 
 も
 
@@ -106,7 +106,7 @@
 
 `http://localhost:8080/ui/repo/bedroom/`
 
-の表示を確認します、ログイン画面が表示されれば ui.war が動いていることが確認できます。
+の表示を確認します、ログイン画面が表示されれば ui.war が動いていることが確認できます。エラーが出る場合は、Tomcatのバージョンに注意して下さい。2.4以降はServerlet 3.1対応のため、Tomcat 8以降必須です。
 
 admin ユーザでログインします。ログインできれば、core.war が動いていることが確認できます。
 
