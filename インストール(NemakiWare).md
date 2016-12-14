@@ -4,7 +4,7 @@
 - Linux/Windows/Mac
 - Java
   * NemakiWare 2.3 ： Java 7
-  * NemakiWare 2.4 ： Java 8
+  * NemakiWare 2.4 ： Java 8, Servlet 3.1+
 - CouchDB  
   (CouchDBはあらかじめインストールしておく必要があります [こちらを参照](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%28CouchDB%29))
 
@@ -31,31 +31,32 @@
 ## 起動
 - NemakiWareを起動する前に、CouchDBが起動済みが確認してください。
 - 確認できたら、次のコマンドでTomcatサーバを起動するだけです。  
-  `sh <TOMCAT_PATH>/bin/startup.sh`
+  `sh {TOMCAT_PATH}/bin/startup.sh`
 
 # インストーラ同梱のTomcatを使わず、任意の場所に配置する
-任意の Tomcat に配置する方法を記載します。インストーラでいったんインストールした後、必要なファイルを移動するのが楽です。インストーラで入れた NemakiWare のホームを INSTALL_HOME 、動かしたい Tomcat の Home ディレクトリを TOMCAT_HOME と記載します。
+任意の Tomcat に配置する方法を記載します。インストーラでいったんインストールした後、必要なファイルを移動するのが楽です。以下の説明では、インストーラで入れた NemakiWare のホームを {INSTALL_HOME} 、動かしたい Tomcat の Home ディレクトリを {TOMCAT_HOME} と記載します。
 
 ## warファイルのコピー
 
-`INSTALL_HOME/apache-tomcat-x.x.x\webapps`
+`{INSTALL_HOME}/apache-tomcat-x.x.x/webapps`
+
 以下にある
 
 * ui.war
 * core.war
 * solr.war
 
-を、 `TOMCAT_HOME/webapps` ディレクトリ以下にコピーします。
+を、 `{TOMCAT_HOME}/webapps` ディレクトリ以下にコピーします。
 
 ## shared/classs をコピー
-`INSTALL_HOME/apache-tomcat-x.x.x/shared` ディレクトリを `TOMCAT_HOME/` 以下にコピーします。
+`{INSTALL_HOME}/apache-tomcat-x.x.x/` にある shared ディレクトリを `{TOMCAT_HOME}/` 以下にコピーします（フォルダがなければ作成します）。
 
 ## conf/Catalina をコピーして設定
-`INSTALL_HOME/apache-tomcat-x.x.x/conf/Catalina` ディレクトリを `TOMCAT_HOME/conf` 以下にコピーし、
+`{INSTALL_HOME}/apache-tomcat-x.x.x/conf/` にある Catalina ディレクトリを `{TOMCAT_HOME}/conf` 以下にコピーし、
 
-`TOMCAT_HOME/conf/Catalina/localhost/solr.xml`
+`{TOMCAT_HOME}/conf/Catalina/localhost/solr.xml`
 
-をエディタで開き、
+をエディタで開きます。
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -72,10 +73,10 @@
 ```
 に変更します（docBase属性）
 
-なお、Environment 要素に書かれている `INSTALL_HOME/Solr` は同梱されている Solr エンジンの場所です。これ自体は、Webアプリケーションではなく、Tomcat とは関係ありませんので、NemakiWare 自体を新しい Tomcat に配置する場合でも、インストール時の場所のままにしておいてもよいです。インストーラで作られた場所は最終的にすべてキレイにしておきたいと言うことであれば、このディレクトリを /opt/solr などに移動し、 solr.xml の Environment name="solr/home" の value 値を新しい場所を指し示すように書き換えることができます。
+なお、Environment 要素に書かれている `{INSTALL_HOME}/Solr` というパスは同梱されている Solr エンジンの場所です。これ自体は、Webアプリケーションではなく、Tomcat とは関係ありませんので、NemakiWare 自体を新しい Tomcat に配置する場合でも、インストール時のもとの場所のままにしておいても動きます。インストーラで作られた場所は最終的にすべてキレイにしておきたいと言うことであれば、この Solr ディレクトリを /opt/solr などに移動し、 solr.xml の Environment name="solr/home" の value 値を新しい場所を指し示すように書き換えることができます。
 
 ## 設定
-`$TOMCAT_HOME/catalina.properties`
+`{TOMCAT_HOME}/conf/catalina.properties`
 
 をエディタで開きます。
 
@@ -91,22 +92,22 @@
 
 必要であれば
 
-`INSTALL_HOME/apache-tomcat-x.x.x/bin/setenv.sh` (Windowsであればsetenv.bat）
+`{INSTALL_HOME}/apache-tomcat-x.x.x/bin/setenv.sh` (Windowsであればsetenv.bat）
 
 も
 
-`TOMCAT_HOME/bin/`
+`{TOMCAT_HOME}/bin/`
 
 以下にコピーしておきます。Tomcat 起動時の Java のメモリサイズなどが書かれています。
 
 ## 確認
-`TOMCAT_HOME/bin/startup.sh`(Windowsであればstartup.bat）
+`{TOMCAT_HOME}/bin/startup.sh`(Windowsであればstartup.bat）
 
 をキックして起動させます。
 
 `http://localhost:8080/ui/repo/bedroom/`
 
-の表示を確認します、ログイン画面が表示されれば ui.war が動いていることが確認できます。エラーが出る場合は、Tomcatのバージョンに注意して下さい。2.4以降はServerlet 3.1対応のため、Tomcat 8以降必須です。
+の表示を確認します、ログイン画面が表示されれば ui.war が動いていることが確認できます（サーブレットのエラーが出る場合は、Tomcatのバージョンに注意して下さい。NemakiWare 2.4 以降は Serverlet 3.1 対応のため、Tomcat 8 以降が必須となります）
 
 admin ユーザでログインします。ログインできれば、core.war が動いていることが確認できます。
 
