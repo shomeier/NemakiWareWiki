@@ -4,7 +4,7 @@
 - Linux/Windows/Mac
 - Java
   * NemakiWare 2.3 ： Java 7
-  * NemakiWare 2.4 ： Java 8, Servlet 3.1+
+  * NemakiWare 2.4 ： Java 8
 - CouchDB  
   (CouchDBはあらかじめインストールしておく必要があります [こちらを参照](https://github.com/aegif/NemakiWare/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%28CouchDB%29))
 
