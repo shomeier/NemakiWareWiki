@@ -22,3 +22,9 @@
 
 ![NemakiWare Login Screen](Images/NemakiWare-Login-Ja.png)
 
+# OpenCMIS Workbenchの利用
+[Apache Chemistry](http://chemistry.apache.org/)の提供する[CMIS Workbench](https://chemistry.apache.org/java/developing/tools/dev-tools-workbench.html)は、網羅的なテストツールを備えたシンプルなGUIクライアントです。  
+利用例:  
+- NemakiWareのUIでエラーが起きたとき 
+- デバッグ
+- リポジトリだけが必要でUIが不要なアプリケーション構成の場合
