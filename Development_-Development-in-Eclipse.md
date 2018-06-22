@@ -27,6 +27,6 @@ By default, they are running on port 8080(core), 8983(solr).
 ```activator run``` (By default, port 9000)
 
 # Debug
-##UI
+## UI
 When running UI server, execute ```activator -jvm-debug 9999 run```  
 Connect to port 9999 by Eclipse's Remote Java Application.
