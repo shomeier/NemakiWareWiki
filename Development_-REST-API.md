@@ -13,7 +13,7 @@ English/[日本語](https://github.com/aegif/NemakiWare/wiki/%E9%96%8B%E7%99%BA:
 - You can request registering an authentication token for a user.
 - A token is generated as UUID and expires at some point.
 
-##Register
+## Register
 `http://localhost:8080/core/rest/authtoken/{userName}/register?app={appName}`
 - {appName}: optional
 
