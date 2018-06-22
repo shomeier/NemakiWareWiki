@@ -2,13 +2,15 @@
 As a full-text search engine, NemakiWare uses Solr4.  
 
 ## UI
+
 By default,  
 - Tomcat<br>
 http://localhost:8080/solr
 - Development<br>
 http://localhost:8983/solr
 
-##Architecture
+## Architecture
+
 Solr is connected with CMIS server via CMIS interface retrieveing delta of CMIS change log by several interval.  
 The interval can be set by cron (by default 30 seconds).
   
@@ -19,6 +21,7 @@ All of the tracked data are stored here.
 The last read changeToken of the change log is registered in Solr, "token" core.
 
 ## Configuration of index
+
 `<INSTALL_PATH>/nemakisolr/solr/nemaki/conf/schema.xml` defines Solr index scheme.
 
 ## Initialization and Reindex
