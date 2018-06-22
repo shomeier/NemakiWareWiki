@@ -5,7 +5,7 @@ By default,
 http://localhost:5984/_utils/
 
 ## Databases
-A CoucnDB instance can have multiple "database", which is something like a table in RDB.  
+A CouchDB instance can have multiple "database", which is something like a table in relational databases.  
 NemakiWare creates and uses the following databases:  
 
 * main (by default, "bedroom")
